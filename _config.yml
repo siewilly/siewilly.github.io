@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 伊藤奏太的博客
-subtitle: '个人技术博客'
-description: '伊藤奏太的个人技术博客，分享编程技术和生活点滴'
-keywords: 技术博客,编程,生活
-author: 伊藤奏太
-language: zh-CN
+title: 伊藤蒼太のBLOG
+subtitle: '個人技術部落格'
+description: '伊藤蒼太のテクノロジーブログ，分享编程技術和生活點滴'
+keywords: 技術部落格,编程,生活
+author: 伊藤蒼太
+language: zh-TW
 timezone: 'Asia/Tokyo'
 
 # URL
