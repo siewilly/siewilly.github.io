@@ -27,7 +27,7 @@
     "hexo-tag-embed": "^1.0.0",
     "hexo-theme-reimu": "^1.5.1",
     "hexo-renderer-pug": "^3.0.0",
-    "hexo-renderer-scss": "^2.1.0",
+    "hexo-renderer-scss": "^1.2.0",
     "hexo-renderer-marked": "^6.0.1"
   }
 }
