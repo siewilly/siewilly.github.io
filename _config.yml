@@ -4,9 +4,9 @@
 
 # Site
 title: 伊藤蒼太のBLOG
-subtitle: '個人技術部落格'
-description: '伊藤蒼太のテクノロジーブログ，分享编程技術和生活點滴'
-keywords: 技術部落格,编程,生活
+subtitle: '技術部落格,編程,生活'
+description: '最喜歡把自己寫爛的code給別人debug，然後看別人痛苦'
+keywords: 技術部落格,編程,生活
 author: 伊藤蒼太
 language: zh-TW
 timezone: 'Asia/Tokyo'
@@ -133,13 +133,13 @@ theme_config:
     - name: 首页
       url: /
       icon: f015
-    - name: 归档
+    - name: 文章
       url: /archives
       icon: f0c1
-    - name: 关于
+    - name: 關於
       url: /about
       icon: f007
-    - name: 友链
+    - name: 連結
       url: /friend
       icon: f2b5
 
