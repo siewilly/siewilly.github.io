@@ -121,8 +121,8 @@ markdown_it_plus:
   html: true
   xhtmlOut: true
   breaks: true
-  langPrefix:
+  langPrefix: ''
   linkify: true
-  typographer:
+  typographer: true
   quotes: ""''
   rawLaTeX: false # newly added
