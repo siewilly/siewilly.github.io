@@ -8,16 +8,16 @@ theme_config_check: true
 menu:
   - name: home
     url: /
-    icon: f015
+    icon: fa fa-home
   - name: archives
     url: /archives
-    icon: f0c1
+    icon: fa fa-archive
   - name: about
     url: /about
-    icon: f007
+    icon: fa fa-user
   - name: friend
     url: /friend
-    icon: f2b5
+    icon: fa fa-link
 
 banner: "/images/banner.webp" # which means themes/reimu/source/images/banner.webp
 # You can also write it in the form of the following url

@@ -132,8 +132,7 @@ theme_config:
   menu:
     - name: 首页
       url: /
-<<<<<<< HEAD
-      icon: f015
+      icon: f0c1
     - name: 文章
       url: /archives
       icon: f0c1
@@ -143,18 +142,6 @@ theme_config:
     - name: 連結
       url: /friend
       icon: f2b5
-=======
-      icon: fa fa-home
-    - name: 文章
-      url: /archives
-      icon: fa fa-link
-    - name: 關於
-      url: /about
-      icon: fa fa-user
-    - name: 連結
-      url: /friend
-      icon: fa fa-share-alt
->>>>>>> dce1a88 (更新配置文件)
 
   # 底部配置
   footer:
@@ -180,11 +167,7 @@ theme_config:
   # 预加载配置
   preloader:
     enable: true
-<<<<<<< HEAD
     text: 少女祈祷中...
-=======
-    text: 少女祈禱中...
->>>>>>> dce1a88 (更新配置文件)
     icon: "/images/taichi.png"
 
   # 锚点图标
