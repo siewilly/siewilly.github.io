@@ -479,7 +479,7 @@ article_copyright:
 top:
   enable: true
   position: right # left or right
-  icon:
+  icon: 
     url: "../images/taichi.png" # this path is relative to the css/style.css, so it needs to go up one level to reach the images folder
     rotate: true
     mask: true # whether to use the images as a mask

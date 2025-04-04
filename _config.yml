@@ -135,13 +135,13 @@ theme_config:
       icon:
     - name: 歸檔
       url: /archives
-      icon: f0c1
+      icon: 
     - name: 關於
       url: /about
-      icon: f007
+      icon: 
     - name: 連結
       url: /friend
-      icon: f2b5
+      icon: 
 
   # 底部配置
   footer:
