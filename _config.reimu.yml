@@ -226,7 +226,7 @@ math:
 # mermaid url https://github.com/knsv/mermaid
 # need https://github.com/webappdevelp/hexo-filter-mermaid-diagrams
 mermaid:
-  enable: false
+  enable: true
 
 code_block:
   # whether to expand the code block by default
