@@ -107,7 +107,7 @@ deploy:
 theme_config:
   # 动态主题色
   material_theme:
-    enable: false
+    enable: true
 
   # 自定义字体
   font:
