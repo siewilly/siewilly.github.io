@@ -130,7 +130,7 @@ theme_config:
 
   # 菜单配置
   menu:
-    - name: 首页
+    - name: 首頁
       url: /
       icon: f0c1
     - name: 文章
@@ -167,7 +167,7 @@ theme_config:
   # 预加载配置
   preloader:
     enable: true
-    text: 少女祈祷中...
+    text: 少女祈禱中...
     icon: "/images/taichi.png"
 
   # 锚点图标
