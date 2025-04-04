@@ -90,7 +90,7 @@ footer:
     mask: true # whether to use the images as a mask
 
 # Sidebar
-sidebar: right
+sidebar: left
 
 social:
   email: mailto:kuoray333@gmail.com
@@ -98,7 +98,7 @@ social:
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
   # facebook: https://www.facebook.com/yourname
-  instagram: https://www.instagram.com/itou.souta15
+  # instagram: https://www.instagram.com/itou.souta15
   # linkedin: https://www.linkedin.com/in/yourname
   # pinterest: https://www.pinterest.com/yourname
   # youtube: https://www.youtube.com/channel/yourname
