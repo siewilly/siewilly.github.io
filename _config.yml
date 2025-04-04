@@ -132,8 +132,8 @@ theme_config:
   menu:
     - name: 首頁
       url: /
-      icon: f0c1
-    - name: 文章
+      icon:
+    - name: 歸檔
       url: /archives
       icon: f0c1
     - name: 關於
