@@ -145,21 +145,21 @@ theme_config:
 
   # 底部配置
   footer:
-    icon:
+    icon: 
       url: "/images/taichi.png"
       rotate: true
       mask: true
 
   # 回到顶部配置
   top:
-    icon:
+    icon: 
       url: "/images/taichi.png"
       rotate: true
       mask: true
 
   # 赞助配置
   sponsor:
-    icon:
+    icon: 
       url: "/images/taichi.png"
       rotate: true
       mask: true
