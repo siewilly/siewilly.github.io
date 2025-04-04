@@ -1,6 +1,6 @@
-title: 第一篇部落格
-date: 2013-12-24 17:49:32
+title: 第一次寫網站的心得
+date: 2025-04-04 18:29:32
 tags:
 ---
 
-Welcome to [Hexo](http://zespia.tw/hexo)! This is your very first post. Check [documentation](http://zespia.tw/hexo/docs) to learn how to use.
+hi
