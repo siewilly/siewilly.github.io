@@ -286,7 +286,7 @@ waline:
     - mail
   wordLimit: 0
   pageSize: 10
-  pageview: false
+  pageview: true
 
 # https://twikoo.js.org
 twikoo:
