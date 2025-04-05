@@ -267,7 +267,7 @@ valine:
 # version 2.15.8
 waline:
   enable: ture
-  serverURL: https://web-eight-weld-65.vercel.app/
+  serverURL: https://web-eight-weld-65.vercel.app
   lang: zh-TW
   locale: {} # https://waline.js.org/guide/features/i18n.html#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%AF%AD%E8%A8%80
   emoji:
