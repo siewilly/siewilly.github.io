@@ -70,4 +70,4 @@ cover: /img/sumire.webp
 最後，我想鼓勵所有初學者，不要害怕嘗試新事物。即使一開始只是套用模板或依賴AI輔助，**每一次努力都是成長的一部分**。未來，我期待自己能創造出完全屬於自己的網站，並結合資安與競程背景，實現更多可能性。
 
 # 特別感謝
-## 在這裡感謝電神**`Small R 大大`**[`Small R 大大`](https://smallr-portfolio.vercel.app/en) 幫助我順利修復了Waline留言系統前後端的Bug
+## 在這裡感謝電神 **`Small R 大大`**[`Small R 大大`](https://smallr-portfolio.vercel.app/en) 幫助我順利修復了Waline留言系統前後端的Bug
