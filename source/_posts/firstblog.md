@@ -4,7 +4,7 @@ tags:
   Hexo
 categories: hexo
 sticky: ture
-cover: /img/vspo.webp
+cover: /img/sumire.webp
 ---
 
 # C++到前端的跨界初體驗
