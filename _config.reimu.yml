@@ -425,22 +425,20 @@ clipboard:
   success: 复制成功(*^▽^*)
   fail: 复制失败 (ﾟ⊿ﾟ)ﾂ
   copyright: # whether to add a copyright for the clipped content
-    enable: ture
+    enable: true
     count: 50 # The number of characters when the copyright is displayed
-    content: 本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！
+    content: 本文版權：本部落格所有文章除特別聲明外，均使用 BY-NC-SA 許可協議。轉載請註明出處！
 
 # show categories card on home page
 home_categories:
-  enable: false
+  enable: true
   content:
-    - categories: # string (single-layer category) or array (multi-layer category)
-      cover: # empty means random cover
-    - categories:
-      cover:
+    - categories: hexo # string (single-layer category) or array (multi-layer category)
+      cover: /img/neko.webp # empty means random cover: 
 
 # whether to display the notification when the article is outdated
 outdate:
-  enable: false
+  enable: true
   daysAgo: 180 # The number of days after which the article is considered outdated
   message: 本文最后更新于 {time}，请注意文中内容可能已经发生变化。
 
@@ -520,7 +518,7 @@ pace:
 
 # Experimental
 service_worker:
-  enable: false
+  enable: true
 
 # Experimental
 live2d:
@@ -540,7 +538,7 @@ player:
     # https://github.com/DIYgod/APlayer
     enable: false
     options:
-      audio: []
+      audio:
       fixed:
       autoplay:
       loop:

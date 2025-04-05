@@ -2,7 +2,9 @@ title: 第一次架網站的心得
 date: 2025-04-04 18:29:32
 tags:
   Hexo
+categories: hexo
 sticky: ture
+cover: /img/vspo.webp
 ---
 
 # C++到前端的跨界初體驗
