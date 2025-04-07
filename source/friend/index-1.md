@@ -4,7 +4,7 @@ date: 2025-04-03 09:58:13
 ---
 # Site Info
 
-Just an ordinary personal blog.
+- Just an ordinary personal blog.
 
 # How to Apply
 
