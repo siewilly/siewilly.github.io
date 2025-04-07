@@ -98,7 +98,7 @@ social:
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
   # facebook: https://www.facebook.com/yourname
-  # instagram: https://www.instagram.com/itou.souta15
+  instagram: https://www.instagram.com/itou.souta15
   # linkedin: https://www.linkedin.com/in/yourname
   # pinterest: https://www.pinterest.com/yourname
   # youtube: https://www.youtube.com/channel/yourname
@@ -106,7 +106,7 @@ social:
   # flickr: https://www.flickr.com/photos/yourname
   # dribbble: https://dribbble.com/yourname
   # behance: https://www.behance.net/yourname
-  # bilibili: https://space.bilibili.com/yourname
+  bilibili: https://b23.tv/Lmova1A
   # weibo: https://weibo.com/yourname
   # zhihu: https://www.zhihu.com/people/yourname
   # reddit: https://www.reddit.com/user/yourname
@@ -422,8 +422,8 @@ firework:
 
 # Clipboard configuration
 clipboard:
-  success: 复制成功(*^▽^*)
-  fail: 复制失败 (ﾟ⊿ﾟ)ﾂ
+  success: 複製成功(*^▽^*)
+  fail: 複製失敗(ﾟ⊿ﾟ)ﾂ
   copyright: # whether to add a copyright for the clipped content
     enable: true
     count: 50 # The number of characters when the copyright is displayed
