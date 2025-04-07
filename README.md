@@ -94,7 +94,7 @@ hexo deploy
 
 deploy:
   type: git
-  repo: https://github.com/itou_souta/itousota15-github.io.git
+  repo: https://github.com/itou_souta/itousouta15.github.io.git
   branch: gh-pages
 
 
@@ -116,7 +116,7 @@ Side Projects：我做的小專案與網站實作紀錄
 
 如果你想更認識我，可以點這裡看看我的自我介紹頁面：
 
-[前往自我介紹](https://itousouta15.github.io/itousota15-github.io/zh-TW/about/)
+[前往自我介紹](https://itousouta15.github.io/zh-TW/about/)
 
 
 
@@ -218,7 +218,7 @@ Tech Notes｜Cybersecurity｜Projects｜Learning Records
 
 ## About Me
 
-[Read my self-introduction](https://itousouta15.github.io/itousota15-github.io/zh-TW/about/)
+[Read my self-introduction](https://itousouta15.github.io/zh-TW/about/)
 
 Want to Contribute?
 
@@ -305,7 +305,7 @@ _config.yml に deploy の設定が必要です。
 
 ## 自己紹介
 
-[自己紹介ページはこちら](https://itousouta15.github.io/itousota15-github.io/zh-TW/about/)
+[自己紹介ページはこちら](https://itousouta15.github.io/zh-TW/about/)
 
 ## 共著者募集中
 
