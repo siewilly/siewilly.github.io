@@ -5,5 +5,5 @@
 
 - name: Small R
   url: https://smallr-portfolio.vercel.app/en
-  dose: 全端電佬一個
-  image: 
+  desc: 全端電佬一個
+  image: /img/smallR.webp
