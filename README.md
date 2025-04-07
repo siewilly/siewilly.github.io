@@ -46,22 +46,14 @@ SEO 與 PWA 支援（可擴充）
 
 
 ## 本地啟動方式
-
-# 安裝 Hexo CLI（如未安裝）
+```
 npm install -g hexo-cli
-
-# 下載此專案模板
 git clone https://github.com/D-Sketon/reimu-template
 cd reimu-template
-
-# 安裝相依套件
 npm install
-
-# 啟動本地伺服器
 hexo server
-
-# 開啟瀏覽器，預設網址為 http://localhost:4000
-
+```
+開啟瀏覽器，預設網址為 http://localhost:4000
 
 
 ## 自訂設定
@@ -93,14 +85,11 @@ _config.reimu.yml：控制主題外觀、功能、模組開啟、字體與語言
 ## 部署方式
 
 我使用 GitHub Pages 進行自動部署：
-
-# 編譯網站內容
+```
 hexo clean
 hexo generate
-
-# 推送到 GitHub Pages
 hexo deploy
-
+```
 需先設定 _config.yml 中的 deploy 區段，例如：
 
 deploy:
@@ -194,13 +183,13 @@ Clean, Japanese-style minimalist design
 
 
 ## Run Locally
-
+```
 npm install -g hexo-cli
 git clone https://github.com/D-Sketon/reimu-template
 cd reimu-template
 npm install
 hexo server
-
+```
 Custom Settings
 
 Customizations include:
@@ -215,11 +204,11 @@ Custom footer & author block
 
 
 ## Deployment
-
+```
 hexo clean
 hexo generate
 hexo deploy
-
+```
 Deploy settings are located in _config.yml.
 
 ## Categories
@@ -283,13 +272,13 @@ RSS、Gitデプロイ、多言語対応（作業中）
 
 
 ## ローカル起動
-
+```
 npm install -g hexo-cli
 git clone https://github.com/D-Sketon/reimu-template
 cd reimu-template
 npm install
 hexo server
-
+```
 ## カスタマイズ内容
 
 フォント＆カーソル変更
@@ -302,11 +291,11 @@ sidebar の簡素化
 
 
 ## デプロイ方法
-
+```
 hexo clean
 hexo generate
 hexo deploy
-
+```
 _config.yml に deploy の設定が必要です。
 
 ## 記事カテゴリ
