@@ -16,4 +16,4 @@ date: 2025-04-03 09:58:09
 
 - Email: kuoray333@gmail.com
 
--All images are sourced from the internet; please contact me for removal if any infringement occurs
+- All images are sourced from the internet; please contact me for removal if any infringement occurs
