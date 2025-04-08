@@ -11,7 +11,7 @@ date: 2025-04-08 09:58:09
 ---
 
 ## 🛠️ 技能技能！Skills & Tools
-`**C++｜HTML｜CSS｜JavaScript｜Hexo｜Linux**`
+`C++｜HTML｜CSS｜JavaScript｜Hexo｜Linux`
 ---
 
 ## 🔧 技能探索中：
