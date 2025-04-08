@@ -2,7 +2,8 @@
 title: 關於
 date: 2025-04-08 09:58:09
 ---
-# ✨ Hello world! I'm Itou Souta ✨  
+# ✨ Hello world!✨
+## ✨ I'm Itou Souta ✨  
 > 「寫程式的時候，世界會安靜下來。」
 
 歡迎來到我的 BLOG！這裡是我放置心得、練習與學習紀錄的基地。  
@@ -11,7 +12,9 @@ date: 2025-04-08 09:58:09
 ---
 
 ## 🛠️ 技能技能！Skills & Tools
-`C++｜HTML｜CSS｜JavaScript｜Hexo｜Linux`
+
+C++｜HTML｜CSS｜JavaScript｜Hexo｜Linux
+
 ---
 
 ## 🔧 技能探索中：
