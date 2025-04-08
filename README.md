@@ -1,8 +1,8 @@
 ## Language | 語言 | 言語
 
-- [繁體中文](#zh-TW)
-- [English](#english)
-- [日本語](#Japanese)
+- [繁體中文🇹🇼](#zh-TW)
+- [English🇺🇲🇬🇧](#english)
+- [日本語🇯🇵](#Japanese)
 
 <a name="zh-TW"></a>
 
