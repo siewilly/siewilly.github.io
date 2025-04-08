@@ -1,11 +1,11 @@
 
 ## Language | 語言 | 言語
 
-- [繁體中文](#繁體中文)
-- [English](#english)
-- [日本語](#日本語-japanese)
+- [繁體中文](#繁體中文 Traditional Chinese)
+- [English](#英文 english)
+- [日本語](#日本語 Japanese)
 
-# 繁體中文
+# 繁體中文 Traditional Chinese
 ## 關於本站
 
 這個部落格是我個人的學習筆記與技術分享空間，內容包含：
@@ -150,7 +150,7 @@ Side Projects：我做的小專案與網站實作紀錄
 ---
 
 
-# English
+# 英文 English
 
 ## About this Blog
 
@@ -239,7 +239,7 @@ All blog posts and images are original. Please do not repost without permission.
 
 ---
 
-# 日本語 (Japanese)
+# 日本語 Japanese
 
 ## このブログについて
 
