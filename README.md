@@ -239,7 +239,9 @@ All blog posts and images are original. Please do not repost without permission.
 
 ---
 
-# Japanese 
+<a name="japanese"></a>
+
+# 日本語
 
 ## このブログについて
 
