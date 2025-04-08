@@ -1,3 +1,7 @@
+---
+title: 關於
+date: 2025-04-08 09:58:09
+---
 # ✨ Hello world! I'm Itou Souta ✨  
 > 「寫程式的時候，世界會安靜下來。」
 
