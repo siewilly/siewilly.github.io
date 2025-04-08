@@ -1,4 +1,4 @@
-# Language | 語言 | 言語
+## Language | 語言 | 言語
 
 - [繁體中文](#zh-TW)
 - [English](#english)
