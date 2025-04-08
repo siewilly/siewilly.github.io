@@ -1,12 +1,12 @@
 ## Language | 語言 | 言語
 
-- [繁體中文🇹🇼](#zh-TW)
-- [English🇺🇲🇬🇧](#english)
-- [日本語🇯🇵](#Japanese)
+- [繁體中文](#zh-TW)
+- [English](#english)
+- [日本語](#Japanese)
 
 <a name="zh-TW"></a>
 
-# 繁體中文
+# 繁體中文 🇹🇼
 
 ## 關於本站
 
@@ -152,7 +152,7 @@ Side Projects：我做的小專案與網站實作紀錄
 ---
 
 
-# English
+# English 🇬🇧🇺🇲
 
 ## About this Blog
 
@@ -243,7 +243,7 @@ All blog posts and images are original. Please do not repost without permission.
 
 <a name="japanese"></a>
 
-# 日本語
+# 日本語 🇯🇵
 
 ## このブログについて
 
