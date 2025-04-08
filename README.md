@@ -3,7 +3,7 @@
 
 - [繁體中文](#繁體中文)
 - [English](#english)
-- [日本語](#日本語)
+- [日本語](#日本語-japanese)
 
 # 繁體中文
 ## 關於本站
@@ -239,7 +239,7 @@ All blog posts and images are original. Please do not repost without permission.
 
 ---
 
-# 日本語
+# 日本語 (Japanese)
 
 ## このブログについて
 
