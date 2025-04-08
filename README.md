@@ -5,7 +5,10 @@
 - [English](#english)
 - [日本語](#Japanese)
 
-# zh-TW
+<a name="zh-TW"></a>
+
+# 繁體中文
+
 ## 關於本站
 
 這個部落格是我個人的學習筆記與技術分享空間，內容包含：
