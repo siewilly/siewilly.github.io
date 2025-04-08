@@ -12,14 +12,13 @@ date: 2025-04-08 09:58:09
 
 ## 🛠️ 技能技能！Skills & Tools
 
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Hexo](https://img.shields.io/badge/Hexo-0E83CD?style=flat&logo=hexo&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![AI](https://img.shields.io/badge/AI%20Tools-9146FF?style=flat&logo=openai&logoColor=white)
-
+<img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Hexo-0E83CD?style=flat&logo=hexo&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/AI%20Tools-9146FF?style=flat&logo=openai&logoColor=white"/>
 ---
 
 ## 🔧 技能探索中：
