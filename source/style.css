@@ -1822,6 +1822,9 @@ a {
 @supports (-webkit-mask: var(--footer-icon) no-repeat center/80%) {
   .footer-info-sep {
     background-color: var(--red-1);
+    /* 標準語法 */
+    mask: var(--footer-icon) no-repeat center/80%;
+    /* WebKit 專用語法 */
     -webkit-mask: var(--footer-icon) no-repeat center/80%;
   }
 }
@@ -2365,6 +2368,9 @@ pre .javascript .function {
 @supports (-webkit-mask: var(--top-icon) no-repeat center/100%) {
   .sidebar-top-taichi {
     background-color: var(--red-1);
+    /* 標準語法 */
+    mask: var(--top-icon) no-repeat center/100%;
+    /* WebKit 專用語法 */
     -webkit-mask: var(--top-icon) no-repeat center/100%;
   }
 }
