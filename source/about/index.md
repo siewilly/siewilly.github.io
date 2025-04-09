@@ -2,7 +2,7 @@
 title: 關於
 date: 2025-04-08 09:58:09
 ---
-# ✨ Hello world!✨
+# cout << "hello! world\n";✨
 ## ✨ I'm Itou Souta ✨  
 > 「寫程式的時候，世界會安靜下來。」
 
@@ -27,3 +27,6 @@ C++｜HTML｜CSS｜JavaScript｜Hexo｜Linux
 
 ## 📫 找到我：  
 - GitHub: [@itou-souta](https://github.com/itou-souta)
+- Threads: [@itou.souta15](https://www.threads.net/@itou.souta15)  
+- Discord server: [Souta’s Little World](https://discord.gg/uAX6h9VmA4)
+---
