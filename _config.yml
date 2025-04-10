@@ -130,16 +130,16 @@ theme_config:
 
   # 菜单配置
   menu:
-    - name: 首頁
+    - name: about
       url: /
       icon:
-    - name: 歸檔
+    - name: archives
       url: /archives
       icon: 
-    - name: 關於
+    - name: about
       url: /about
       icon: 
-    - name: 連結
+    - name: friend
       url: /friend
       icon: 
 
