@@ -1,92 +1,119 @@
-title: 第一次架網站的心得
+---
+title: My First Experience Building a Website
+lang: en
 date: 2025-04-04 18:29:32
 tags:
-  Hexo
+  - Hexo
 categories: hexo
-sticky: ture
+sticky: true
 cover: /img/sumire.webp
 ---
 
-# C++到前端的跨界初體驗
-我開始寫程式和其他電神比已經算很晚了，約莫是高一上第一學期開始學C++，並決定用這條路走特選上大學，雖然目標是資安競程領域（~~主要是怕走前端會吃土~~）但我還是決定挑戰自己，嘗試學習網站開發（升學需要），不過，**這次的網站製作並不是從零開始，而是使用了Hexo框架並套用了現成的模板。**（~~技術不夠~~）雖然過程相對簡單，但仍然讓我對網站架構有了初步的了解（高二再來全部重寫）
+# From C++ to Front-End: A Cross-Domain Journey
 
-# Hexo框架的選擇與準備
-## 為什麼選擇Hexo？
-剛開始接觸網站開發時，我面臨了一個問題：應該從哪裡開始？在看了很多電神的網站後，我發現了Hexo這個框架。Hexo是一個快速、簡單且高效的靜態網站生成器，特別適合像我這樣~~沒有技術的人~~。它的優勢在於：
-> **簡單易用**：只需要安裝Node.js和npm(~~對linux相對友善~~)，就可以快速搭建網站。
+Compared to other coding prodigies, I started programming pretty late—around the first semester of my first year in high school, when I began learning C++. I decided to pursue a university track focused on information security and competitive programming (~~mainly because I was afraid I’d go broke doing front-end dev~~). Still, I wanted to challenge myself and try web development (part of the application requirements).  
+That said, **this website wasn’t built entirely from scratch—I used the Hexo framework and applied a pre-built theme** (~~because I lack the skills~~). Even though the process was relatively simple, it gave me a basic understanding of website structure (planning to rewrite everything in my second year of high school).
 
->**支持Markdown**：對於不熟悉HTML的初學者來說，用Markdown撰寫內容非常友好。
+# Choosing Hexo and Getting Set Up
 
->**模板豐富**：有大量現成的模板可供選擇，能輕鬆打造一個美觀的網站。
+## Why Hexo?
 
-此外，用Hexo可以讓我專注於創作，而不花太多時間在技術細節上。這對於剛開始探索網站開發的我來說，是一個理想的選擇。
+When I first started learning about web development, I was faced with a big question: where do I even begin? After looking at websites made by some coding gods, I came across the Hexo framework. Hexo is a fast, simple, and efficient static site generator—perfect for someone like me with ~~limited tech skills~~. Its advantages include:
 
-## 套模板的過程
-在決定要用Hexo當下我就已經找好要用的模板了，在茫茫模板中D-Sketon大大所製作的Reimu模板風格一下就吸引到了我（~~宅宅~~）的注意。但此時的我並不知道接下來才是地獄的開始....
+> **User-Friendly**: You only need to install Node.js and npm (~~Linux-friendly too~~), and you can quickly set up a site.  
+> **Markdown Support**: For beginners who aren’t familiar with HTML, writing in Markdown is very beginner-friendly.  
+> **Plenty of Themes**: Tons of available themes make it easy to create a beautiful site.
 
-# 實際操作與心得
-## 大卡關
-首先我遇到的第一個問題是：「要怎麼在 Linux 上寫 Hexo 網站？」
-由於我的電腦是 Linux 系統，而我過去從來沒在 Linux 上從 GitHub 抓過東西、也沒用過 Hexo，光是環境安裝就讓我摸了好一陣子。什麼 Node.js、npm、Hexo CLI、權限設定……全都要自己慢慢爬文摸索。
+Using Hexo allowed me to focus on content creation without getting bogged down by technical details. For someone just starting out with web development, it was the ideal choice.
 
-但真正的問題是，是部署到 GitHub Pages 的時候，後台一直報錯「找不到 Reimu 模板」。我反覆確認檔案都有傳上去、路徑也正確,但就是怎麼都過不了。**當時的我顯然不知道`GitHub Pages 預設會啟用 Jekyll 處理器，而我寫的是hexo架構....能跑才有鬼。`**
+## Applying a Theme
 
-我在這個問題上卡了快一個月，試了各種方法都沒用。直到有一天我腦袋突然清醒去問AI，對方建議我：「在根目錄放一個名為 .nojekyll 的空檔案。」
-雖然我也不清楚為什麼這樣可以跑，但至少他過了(◉３◉)
+The moment I decided to use Hexo, I already had a theme in mind. Out of countless options, the Reimu theme by D-Sketon instantly caught the eye of my inner ~~otaku~~.  
+Little did I know, **that was just the beginning of my descent into hell…**
 
-（2025/04/09更新）我發現要寫i18n整個架構要重寫...
+# Hands-On Experience & Takeaways
 
-## `Cousor AI`的影響
-最近引起討論的`Vibe Coding`強調的是 **「完全順應感覺（vibes）、擁抱AI帶來的進步，並忘記程式碼本身的存在」** 這種寫法某種程度上解放了開發者的思維，讓創作過程更像是在畫畫、作曲，而不是一行一行的尻程式碼( ´•̥̥̥ω•̥̥̥` )
+## Major Roadblock
 
-雖然這次開發還算不上真正的`vibe coding`，但實際上，大約有**將近4成以上的問題**，都是透過人工智慧幫我發現與排除的。例如 CSS 的語法錯誤、 YAML 格式錯誤、甚至是 Hexo 設定檔的小細節，很多我根本還沒注意到的 bug，AI 都能即時提醒我，甚至提供修正建議。
+The first problem I encountered was: “How do I build a Hexo website on Linux?”  
+My computer runs Linux, and I had never cloned a repo from GitHub or used Hexo before. Just getting the environment set up took forever. Node.js, npm, Hexo CLI, permission settings… I had to dig through forum posts and documentation on my own.
 
-雖然在很多情境下它能提供即時且精準的協助，但在某些複雜或需要細膩判斷的地方，它反而會越走越偏。
+But the real nightmare was **deploying to GitHub Pages**. The site kept throwing errors saying it couldn’t find the Reimu theme. I double-checked—files were uploaded, paths were correct—but nothing worked.  
+**What I didn’t know was that GitHub Pages enables the Jekyll processor by default, while I was using Hexo… of course it wouldn’t run.**
 
-例如有幾次我遇到 YAML 語法錯誤時，AI 給的建議看起來正確，但實際上只是 **「表面正確」** —— 縮排雖然對了，邏輯卻錯了，導致 Hexo 仍然無法正確運作。此外，它有時候會給出 「過時」 的解法或是 「看似合理但根本不存在的語法」 ，特別是在處理一些偏門功能或自定義元件時。
+I was stuck on this for almost a month. Tried everything. Then one day I randomly asked an AI for help, and it suggested: “Put an empty file named `.nojekyll` in the root directory.”  
+No idea why that worked, but at least the site loaded (◉３◉)
 
-還有一個問題，就是 **「太依賴 AI」**。一旦開始習慣問 AI，自己動手查資料、查文件的機會就會變少，也容易讓自己的 debugging 能力退化。尤其是當 AI 的回答沒有命中問題時，**如果自己也不知道該怎麼 debug，就會卡得更久**。
-(~~現在有一堆人甚至連git都不會用~~)
+> *(2025/04/09 update)* I found out that enabling i18n (multilingual support) basically requires rewriting the entire structure...
 
-## 英文的重要性
-在AI的浪潮之下，我常常忽視了英文的重要性，總覺得只要程式寫得好，就可以輕鬆應對所有挑戰。但從這次的開發過程中不論是`VScode`或是`Cousor` 亦或是`github`它們的介面和文檔幾乎全是英文。每當遇到問題時，我不得不花大量時間研讀英文說明和錯誤訊息，試圖理解它們的意思（~~真的看不懂阿....~~）
+## The Influence of `Cursor AI`
 
-這些經歷讓我深刻意識到，英文對於資工科系學生的重要性**不僅僅是「加分項」**，而是 **「必備技能」**。從技術文檔到程式語言的關鍵字，再到國際開發者社群的交流，英文無處不在。如果沒有基本的英文能力，不僅學習進度會被拖慢，甚至可能錯失許多寶貴的資源與機會。
+Recently, there's been a lot of buzz around `Vibe Coding`, which emphasizes **“coding purely based on intuition and vibes, embracing AI and forgetting about the actual code.”** In some ways, this mindset frees developers to create like they’re painting or composing music, instead of grinding through line after line of code ( ´•̥̥̥ω•̥̥̥` )
 
-這次開發告訴我：之後英文課再也不敢睡覺了~~(´◓Д◔`)
+This project wasn’t full-on `vibe coding`, but honestly, **about 40% of the problems** were discovered and solved with AI’s help. From CSS syntax errors and YAML formatting issues to small quirks in Hexo’s config files, AI often spotted bugs I hadn’t even noticed and suggested fixes.
 
-# 反思與未來
-## 成就感與不足之處
-這次使用Hexo框架搭建網站並套用模板的過程，讓我感受到了一種前所未有的成就感(膨脹)。從無到有的過程中，每一步都充滿了樂趣(~~和痛苦~~)。尤其是在LLM的幫助下，我能快速解決問題，並完成一些之前認為很複雜的功能。
+That said, while AI can be incredibly helpful, it sometimes goes off-track—especially when it comes to more complex issues that require careful judgment.
 
-然而，這次的開發過程仍有許多不足之處：
+For example, I once had a YAML syntax error, and the AI’s suggestion looked right—but only **superficially**. The indentation was fine, but the logic was wrong, and Hexo still wouldn't run.  
+It also gave outdated or totally made-up syntax in some cases, especially when I tried to use obscure features or customize components.
 
->**依賴模板與AI**：由於主要是套用模板和使用AI輔助，我對網站的底層架構和程式邏輯的理解還不夠深入。
+Another issue: **overreliance on AI**. The more I relied on it, the less motivated I was to look things up or read docs. My debugging skills were starting to rust.  
+When AI’s suggestions didn’t hit the mark, **I often had no idea what to do next**, which made me get stuck even longer.  
+(~~Some people today can’t even use git properly~~)
 
->**缺乏自主性**：雖然AI幫助我解決了許多問題，但有些代碼是由AI生成的，自己並未完全掌握其邏輯，這可能導致未來的維護困難(~~大不了在重寫一個~~)。
+## The Importance of English
 
-## 未來計劃
-這次經驗讓我對網站開發產生了興趣(~~離吃土進了一步~~)，也為我未來的學習指明了一些方向。我希望能在以下幾個方面來提升自己的能力：
+With the AI wave sweeping through everything, I used to think I could get by just by knowing how to code. But this project made me realize how important English really is.  
+Whether it’s `VSCode`, `Cursor`, or `GitHub`, their interfaces and documentation are basically all in English. Whenever I ran into an issue, I had to spend tons of time reading English instructions and error messages, trying to understand what they meant (~~I seriously couldn’t read any of it~~).
 
->**從零開始撰寫網站** :
-下一次，我計劃從頭學HTML、CSS和JavaScript，嘗試從零開始寫一個簡單的靜態網站(~~or 動態?~~)。這將幫我更深入地理解網站開發的基礎知識，並提升我的自主開發能力。
+These experiences made it painfully clear that English isn't just a “bonus” skill for CS students—**it's a necessity**. From technical documentation to programming keywords to participating in global dev communities, English is everywhere.  
+Without at least basic English proficiency, your learning curve gets steeper, and you miss out on valuable resources and opportunities.
 
->**探索後端技術** :
-除了前端開發，我也希望學習後端技術(反正都學一點就對了)，如Node.js或Python Flask，了解如何處理伺服器端邏輯和數據庫操作。
+This project taught me: no more sleeping through English class~~(´◓Д◔`)
 
->**結合資安與競程背景** :
-作為一名熟悉C++且對資安和競程感興趣的學生，我希望能將這些技能結合起來。例如，在學習網站開發時，嘗試了解常見漏洞（如XSS、SQL注入）以及如何防範它們。同時，也可以研究如何將高效算法應用於網站功能中。
+# Reflection & What’s Next
 
->**減少對AI工具的依賴** :
-雖然`Cursor AI`提供了極大的便利，但我希望能逐步減少對它的依賴，更多地依靠自己的能力完成開發工作。
+## A Sense of Accomplishment—and Shortcomings
 
-# 結尾
+Using the Hexo framework to build a website and apply a theme gave me a huge sense of accomplishment (I got cocky for a bit).  
+Building something from scratch, step-by-step, was a lot of fun (~~and a lot of pain~~).  
+With help from LLMs, I was able to quickly solve problems and implement features I once thought were too hard.
 
-**這次開發讓我認識了很多人，學會了很多事，也讓我第一次體會到把一個想法慢慢實現出來的過程。**
+Still, there were areas that could definitely be improved:
 
-從架設部落格、學習 Hexo、改主題、調整樣式，到後來研究部署、踩坑除錯、學著寫 Markdown，我發現其實做網站並不只是寫程式而已，更是一種表達、整理與分享的方式。**雖然這個部落格還有很多可以改進的地方，但它代表了我這段時間的努力與成長**。未來我會繼續更新內容，記錄學習歷程，也希望能**認識更多志同道合的朋友，一起寫、一起分享、一起進步**。
+> **Reliance on Templates & AI**: Because I mainly used a template and AI assistance, I didn’t gain a deep understanding of the underlying website structure or code logic.
 
-最後，我想鼓勵所有初學者，不要害怕嘗試新事物。即使一開始只是套用模板或依賴AI輔助，**每一次努力都是成長的一部分**。未來，我期待自己能創造出完全屬於自己的網站，並結合資安與競程背景，實現更多可能性。
+> **Lack of Independence**: Some of the code was generated by AI, and I didn’t fully grasp how it worked. This could cause problems down the line when it comes to maintenance (~~I’ll just rewrite everything again anyway~~).
 
-# 特別感謝
-## 在這裡感謝電神 **`Small R 大大`**[`Small R 大大`](https://smallr-portfolio.vercel.app/en) 幫助我順利修復了Waline留言系統前後端的Bug
+## Plans for the Future
+
+This experience sparked my interest in web development (~~one step closer to going broke~~) and gave me some direction for future learning. Here’s how I plan to grow:
+
+> **Build a Website from Scratch**  
+> Next time, I plan to learn HTML, CSS, and JavaScript from the ground up and build a simple static site (~~or dynamic?~~). This will deepen my understanding of the basics and improve my independence as a developer.
+
+> **Explore Backend Technologies**  
+> Besides front-end, I also want to explore backend tech (why not just learn everything?), like Node.js or Python Flask, to understand server-side logic and database operations.
+
+> **Combine Cybersecurity & Competitive Programming**  
+> As someone with a background in C++ and an interest in security and algorithms, I hope to blend those skills with web dev. For example, I’ll try to learn about common web vulnerabilities (like XSS and SQL injection) and how to prevent them. I also want to explore how algorithm efficiency can enhance web functionality.
+
+> **Reduce AI Dependence**  
+> Although `Cursor AI` made development way easier, I want to rely less on it in the future and develop my own problem-solving skills.
+
+# Final Thoughts
+
+**This project introduced me to many people, taught me a lot, and gave me my first taste of bringing an idea to life.**
+
+From setting up the blog, learning Hexo, tweaking themes, styling, and eventually deploying, debugging, and writing Markdown, I realized that web development isn’t just about code—it’s a way of expressing, organizing, and sharing.  
+**This blog still has a lot of room for improvement, but it represents my effort and growth during this time.**  
+I’ll keep updating it to document my learning journey, and I hope to **meet more like-minded people to code, share, and grow together.**
+
+To all the beginners out there—don’t be afraid to try new things. Even if you start by applying themes or using AI assistance, **every bit of effort is part of the growth process**.  
+I hope to one day build a fully customized site from scratch and combine my cybersecurity and competitive programming background to unlock even more possibilities.
+
+# Special Thanks
+
+## Shoutout to the legendary dev **`Small R`** [`Small R`](https://smallr-portfolio.vercel.app/en)
+
+Thank you for helping me fix the bugs in the Waline comment system, both front-end and back-end!
