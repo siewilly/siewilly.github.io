@@ -84,7 +84,7 @@ function getLanguages(hexo) {
   }
   const languages = Array.isArray(i18n.languages)
     ? i18n.languages
-    : [i18n.languages];
+    : [];
 
   return languages.filter((lang) => lang !== "default");
 }
