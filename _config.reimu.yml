@@ -139,7 +139,7 @@ i18n:
   enable: false
   type: [page, post]
   generator: [archive, category, tag, index]
-  languages: [zh-TW,zh-CN,en,ja]
+  languages: []
 
 ########################################
 # CSS
@@ -429,7 +429,7 @@ clipboard:
   success: 複製成功(*^▽^*)
   fail: 複製失敗(ﾟ⊿ﾟ)ﾂ
   copyright: # whether to add a copyright for the clipped content
-    enable: true
+    enable: false
     count: 50 # The number of characters when the copyright is displayed
     content: 本文版權：本部落格所有文章除特別聲明外，均使用 BY-NC-SA 許可協議。轉載請註明出處！
 
