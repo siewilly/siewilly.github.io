@@ -5,7 +5,7 @@ tags:
 	Hexo
 categories: hexo
 sticky: false
-cover: /img/sumire.webp
+cover: /img/shinosumi.webp
 ---
 
 # C++到前端的跨界初體驗
