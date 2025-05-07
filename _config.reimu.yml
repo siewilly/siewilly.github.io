@@ -178,7 +178,7 @@ dark_mode:
   # true means that the dark mode is enabled by default
   # false means that the dark mode is disabled by default
   # auto means that the dark mode is automatically switched according to the system settings
-  enable: auto # true | false | auto
+  enable: ture # true | false | auto
 
 # need https://github.com/D-Sketon/hexo-renderer-markdown-it-plus
 markdown:
@@ -421,7 +421,7 @@ clipboard:
   success: 複製成功(*^▽^*)
   fail: 複製失敗(ﾟ⊿ﾟ)ﾂ
   copyright: # whether to add a copyright for the clipped content
-    enable: false
+    enable: true
     count: 50 # The number of characters when the copyright is displayed
     content: 本文版權：本部落格所有文章除特別聲明外，均使用 BY-NC-SA 許可協議。轉載請註明出處！
 
