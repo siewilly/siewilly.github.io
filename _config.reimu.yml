@@ -1,29 +1,29 @@
 ########################################
-# Basic Configuration
+# 基本配置
 ########################################
 theme_version_check: true
 theme_config_check: true
-# main menu navigation
-# for more icon information, please visit https://github.com/D-Sketon/hexo-theme-reimu/issues/30
+# 主選單導航
+# 更多圖標資訊，請訪問 https://github.com/D-Sketon/hexo-theme-reimu/issues/30
 menu:
-  - name: home
+  - name: 首頁
     url: /
     icon: fa fa-home
-  - name: archives
+  - name: 歷史
     url: /archives
     icon: fa fa-archive
-  - name: about
+  - name: 關於
     url: /about
     icon: fa fa-user
-  - name: friend
+  - name: 朋友
     url: /friend
     icon: fa fa-link
 
-banner: "/img/banner.webp" # which means themes/reimu/source/images/banner.webp
-# You can also write it in the form of the following url
+banner: "/img/banner.webp" # 表示 themes/reimu/source/images/banner.webp
+# 您也可以使用以下網址形式
 # banner: "https://example.com"
 
-# If you want to use the srcset attribute, please enable it
+# 如果您想使用 srcset 屬性，請啟用它
 banner_srcset:
   enable: true
   srcset:
@@ -34,14 +34,14 @@ banner_srcset:
     - src: "/img/banner.webp"
       media: "(min-width: 800px)"
 
-favicon: "/images/favicon.ico" # which means themes/reimu/source/images/favicon.ico
-# You can also write it in the form of the following url
+favicon: "/images/favicon.ico" # 表示 themes/reimu/source/images/favicon.ico
+# 您也可以使用以下網址形式
 # favicon: "https://example.com"
 
-avatar: "avatar.webp" # which means source/_data/avatar/avatar.webp
+avatar: "avatar.webp" # 表示 source/_data/avatar/avatar.webp
 
 # Open Graph
-# see https://hexo.io/docs/helpers#open-graph
+# 參見 https://hexo.io/docs/helpers#open-graph
 open_graph:
   enable: true
   options:
@@ -52,48 +52,47 @@ open_graph:
     #google_plus: <g+:profile_link>
     #fb_admins: <fb:admin_id>
     #fb_app_id: <fb:app_id>
-    default_og_image: /img/banner.webp # the default og:image for Open Graph, support absolute path
+    default_og_image: /img/banner.webp # Open Graph 的預設 og:image，支援絕對路徑
 
-# Content
-excerpt_link: Read More
+# 內容
+excerpt_link: 閱讀更多
 
 # RSS
-# need https://github.com/hexojs/hexo-generator-feed
+# 需要 https://github.com/hexojs/hexo-generator-feed
 rss: atom.xml
 
-# a very simple alternative for https://hexo.io/api/injector
+# 一個非常簡單的替代方案，適用於 https://hexo.io/api/injector
 injector:
-  head_begin: # Inject code snippet right after <head>
-  head_end: # Inject code snippet right before </head>
-  body_begin: # Inject code snippet right after <body>
-  body_end: # Inject code snippet right before </body>
-  sidebar_begin: # Inject code snippet right after <aside>
-  sidebar_end: # Inject code snippet right before </aside>
+  head_begin: # 在 <head> 後注入代碼片段
+  head_end: # 在 </head> 前注入代碼片段
+  body_begin: # 在 <body> 後注入代碼片段
+  body_end: |
+    <script>
+      console.log('Footer loaded');
+    </script>
+  sidebar_begin: # 在 <aside> 後注入代碼片段
+  sidebar_end: # 在 </aside> 前注入代碼片段
 
-# Footer copyright
-copyright: # Inject code snippet right in the footer copyright
-# Need help choosing? Please see...
-# https://creativecommons.org/choose/
-# https://choosealicense.com/
- copyright: |-
+# 頁腳版權
+copyright: |-
   <div style="flex-direction:column;align-items: center;">
     <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
       <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
     </a>
-    All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+    本網站採用 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> 授權
   </div>
 
 footer:
-  since: 2020 # 2020-current year
+  since: 2020 # 2020-當前年份
   powered: true
-  count: true # show word count and reading time
+  count: true # 顯示字數和閱讀時間
   busuanzi: true
   icon:
-    url: "../images/taichi.png" # this path is relative to the css/style.css, so it needs to go up one level to reach the images folder
+    url: "../images/taichi.png" # 此路徑相對於 css/style.css，因此需要向上一層到達 images 資料夾
     rotate: true
-    mask: true # whether to use the images as a mask
+    mask: true # 是否將圖片用作遮罩
 
-# Sidebar
+# 側邊欄
 sidebar: left
 
 social:
@@ -110,7 +109,7 @@ social:
   # flickr: https://www.flickr.com/photos/yourname
   # dribbble: https://dribbble.com/yourname
   # behance: https://www.behance.net/yourname
-  bilibili: https://b23.tv/Lmova1A
+  # bilibili: https://b23.tv/Lmova1Ae
   # weibo: https://weibo.com/yourname
   # zhihu: https://www.zhihu.com/people/yourname
   # reddit: https://www.reddit.com/user/yourname
@@ -120,31 +119,27 @@ social:
   # stackoverflow: https://stackoverflow.com/users/yourname
   # keybase: https://keybase.io/yourname
   # telegram: https://t.me/yourname
-  # discord: https://discordapp.com/users/yourname
-  # steam: https://steamcommunity.com/id/yourname
+  discord: https://discord.gg/8fPAQACQaB
+  steam: https://steamcommunity.com/id/itousouta15/
 
 widgets:
-   - category
-   - tag
-   - tagcloud
-   - archive
-   - recent_posts
+  - category
+  - tag
+  - archive
+  - recent_posts
 
-# Widget behavior
-archive_type: "monthly"
+# Widget 行為
+archive_type: "每月"
 show_count: false
 recent_posts_limits: 5
 
 i18n:
   enable: false
-  type: [page, post]
-  generator: [archive, category, tag, index]
   languages: []
 
 ########################################
 # CSS
 ########################################
-
 anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
 
 reimu_cursor:
@@ -157,7 +152,6 @@ reimu_cursor:
 # set to false to enable fontawesome
 icon_font: false
 
-# https://fonts.google.com/
 # Google Fonts, higher priority than local_font
 font:
   article:
@@ -206,17 +200,16 @@ math:
     enable: false
     options: # see https://docs.mathjax.org/en/latest/web/configuration.html
       {
-        tex:
-          {
-            tags: "ams",
-            useLabelIds: true,
-            inlineMath: [["$", "$"], ['\\(', '\\)']],
-            displayMath: [["$$", "$$"], ['\\[', '\\]']],
-            processEscapes: true,
-            processEnvironments: true,
-            autoload: { color: [], colorv2: ["color"] },
-            packages: { "[+]": ["noerrors"] },
-          },
+        tex: {
+          tags: "ams",
+          useLabelIds: true,
+          inlineMath: [["$", "$"], ['\\(', '\\)']],
+          displayMath: [["$$", "$$"], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true,
+          autoload: { color: [], colorv2: ["color"] },
+          packages: { "[+]": ["noerrors"] },
+        },
         options:
           {
             skipHtmlTags:
@@ -239,9 +232,9 @@ code_block:
   # number means collapse the code block by default when the number of lines exceeds the specified value
   expand: true
 
-########################################
+##########################################################
 # Analytics
-########################################
+##########################################################
 
 baidu_analytics: false
 google_analytics: false
@@ -267,7 +260,7 @@ valine:
   highlight: true # whether to highlight the code blocks
   visitor: false # whether to display the number of visitors
 
-# https://waline.js.org/
+# https://waline.js.org
 # version 2.15.8
 waline:
   enable: true # 修正拼寫錯誤
@@ -438,7 +431,7 @@ home_categories:
   enable: true
   content:
     - categories: hexo # string (single-layer category) or array (multi-layer category)
-      cover: /img/neko.webp # empty means random cover: 
+      cover: /img/neko.webp # empty means random cover
 
 # whether to display the notification when the article is outdated
 outdate:
@@ -481,7 +474,7 @@ article_copyright:
 top:
   enable: true
   position: right # left or right
-  icon: 
+  icon:
     url: "../images/taichi.png" # this path is relative to the css/style.css, so it needs to go up one level to reach the images folder
     rotate: true
     mask: true # whether to use the images as a mask
@@ -510,7 +503,6 @@ quicklink:
   # The `requestIdleCallback` timeout, in milliseconds.
   timeout: 3000
   # Whether or not the URLs within the options.el container should be treated as high priority.
-  # When true, quicklink will attempt to use the fetch() API if supported (rather than link[rel=prefetch]).
   priority: true
   # Determine if a URL should be prefetched.
   # Only support string
@@ -530,12 +522,11 @@ live2d:
   position: left # left or right
 
 # Experimental
+# Please turn on pjax to use this feature
 live2d_widgets:
   enable: false
-  position: left # left or right
 
 # Experimental
-# Please turn on pjax to use this feature
 player:
   # if you enable meting, you must enable aplayer first
   aplayer:
@@ -547,7 +538,7 @@ player:
       autoplay:
       loop:
       order:
-      preload: 
+      preload:
       volume:
       mutex:
       listFolded:
@@ -561,7 +552,6 @@ player:
       id: 2265921590
       server: netease
       type: playlist
-      auto:
 
 ########################################
 # Vendor
@@ -633,7 +623,7 @@ vendor:
       integrity: sha384-JmVtRz6RWiXnA14QbIOJzPuU3MidULOpBP66deeLLyyoF4Tr/gZlbkHkL6vTthxH
     quicklink:
       src: webcache|quicklink@2.3.0/dist/quicklink.umd.js
-      integrity: sha384-aD7FsuQkS1ohgFKY41fJfeA+Wd/QRNnrOd9Bs58K3FzKdJJv8yPnYU8Tnp5z1agS
+      integrity: sha384-aD7FsuQkS1ohgFKY41fJfeA+Wd/RNnrOd9Bs58K3FzKdJJv8yPnYU8Tnp5z1agS
     katex:
       src: webcache|katex@0.16.11/dist/katex.min.js
       integrity: sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg
@@ -657,7 +647,7 @@ vendor:
       integrity: sha384-UbfRVKN3/elS1r7JcK2FhmPP+KlJ4CvYwbyYD7tH+uTkbT9bNJr9eJeQ0FoFbAgz
     dompurify:
       src: webcache|dompurify@3.2.4/dist/purify.min.js
-      integrity: sha384-eEu5CTj3qGvu9PdJuS+YlkNi7d2XxQROAFYOr59zgObtlcux1ae1Il3u7jvdCSWu
+      integrity: sha384-eEu5CTj3qGvu9PdJuS+YlkNi7d2XxQROAFYOr59zgObtlcux1ae1Il3u7jvdCSWu/
   css:
     photoswipe: webcache|photoswipe@5.4.4/dist/photoswipe.css
     katex: webcache|katex@0.16.11/dist/katex.min.css
