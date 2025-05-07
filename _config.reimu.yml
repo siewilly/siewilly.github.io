@@ -73,7 +73,6 @@ injector:
   sidebar_begin: # 在 <aside> 後注入代碼片段
   sidebar_end: # 在 </aside> 前注入代碼片段
 
-
 footer:
   since: 2025 
   powered: true
@@ -132,19 +131,19 @@ i18n:
 ########################################
 # CSS
 ########################################
-anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
+anchor_icon: # 預設使用 '#' 圖標，您可以使用 fontawesome 或 icon_font 的十六進制表示，例如 'f0c1'
 
 reimu_cursor:
   enable: true
   cursor:
-    default: ../images/cursor/reimu-cursor-default.png  # this path is relative to the css/style.css, so it needs to go up one level to reach the images folder
+    default: ../images/cursor/reimu-cursor-default.png  # 此路徑相對於 css/style.css，因此需要向上一層到達 images 資料夾
     pointer: ../images/cursor/reimu-cursor-pointer.png
     text: ../images/cursor/reimu-cursor-text.png
 
-# set to false to enable fontawesome
+# 設置為 false 以啟用 fontawesome
 icon_font: false
 
-# Google Fonts, higher priority than local_font
+# Google 字體，優先於本地字體
 font:
   article:
     - Mulish
@@ -154,7 +153,7 @@ font:
     # - Source Code Pro
     # - JetBrains Mono
 
-# Local FallBack Font
+# 本地備選字體
 local_font:
   article:
     - "-apple-system"
@@ -168,29 +167,29 @@ local_font:
     - monospace
 
 dark_mode:
-  # true means that the dark mode is enabled by default
-  # false means that the dark mode is disabled by default
-  # auto means that the dark mode is automatically switched according to the system settings
+  # true 表示默認啟用深色模式
+  # false 表示默認禁用深色模式
+  # auto 表示根據系統設置自動切換深色模式
   enable: ture # true | false | auto
 
-# need https://github.com/D-Sketon/hexo-renderer-markdown-it-plus
+# 需要 https://github.com/D-Sketon/hexo-renderer-markdown-it-plus
 markdown:
-  container: false # whether to enable the container style
+  container: false # 是否啟用容器樣式
 
 ########################################
-# Markdown Display
+# Markdown 顯示
 ########################################
 
-# need https://github.com/D-Sketon/hexo-renderer-markdown-it-plus
+# 需要 https://github.com/D-Sketon/hexo-renderer-markdown-it-plus
 math:
   enable: false
-  # If you don't want to use it, please set `autoRender` to true to enable browser rendering
+  # 如果您不想使用它，請將 `autoRender` 設置為 true 以啟用瀏覽器渲染
   katex:
     enable: true
-    autoRender: false # whether to render the math in the browser, disabled by default
+    autoRender: false # 是否在瀏覽器中渲染數學公式，默認禁用
   mathjax:
     enable: false
-    options: # see https://docs.mathjax.org/en/latest/web/configuration.html
+    options: # 參見 https://docs.mathjax.org/en/latest/web/configuration.html
       {
         tex: {
           tags: "ams",
@@ -212,20 +211,20 @@ math:
         loader: { load: ["input/asciimath", "[tex]/noerrors"] },
       }
 
-# mermaid url https://github.com/knsv/mermaid
-# need https://github.com/webappdevelp/hexo-filter-mermaid-diagrams
+# mermaid 圖表 https://github.com/knsv/mermaid
+# 需要 https://github.com/webappdevelp/hexo-filter-mermaid-diagrams
 mermaid:
   enable: true
 
 code_block:
-  # whether to expand the code block by default
-  # true means expand all code blocks by default
-  # false means collapse all code blocks by default
-  # number means collapse the code block by default when the number of lines exceeds the specified value
+  # 是否默認展開代碼塊
+  # true 表示默認展開所有代碼塊
+  # false 表示默認折疊所有代碼塊
+  # 數字表示當行數超過指定值時默認折疊代碼塊
   expand: true
 
 ##########################################################
-# Analytics
+# 分析
 ##########################################################
 
 baidu_analytics: false
@@ -233,27 +232,27 @@ google_analytics: false
 clarity: false
 
 ########################################
-# Comment system
+# 評論系統
 ########################################
 
-# valine comment system. https://valine.js.org
-# version 1.5.1
-# notify and verify have been deprecated
+# valine 評論系統。https://valine.js.org
+# 版本 1.5.1
+# notify 和 verify 已被棄用
 valine:
-  enable: false # if you want to use valine,please set this value is true
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
-  pageSize: 10 # comment list page size
-  avatar: mp # gravatar style https://valine.js.org/#/avatar
+  enable: false # 如果您想使用 valine，請將此值設置為 true
+  appId: # leancloud 應用程序 app id
+  appKey: # leancloud 應用程序 app key
+  pageSize: 10 # 評論列表頁大小
+  avatar: mp # gravatar 樣式 https://valine.js.org/#/avatar
   lang: zh-tw # i18n: zh-cn/en
-  placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
-  guest_info: nick,mail,link #valine comment header info
-  recordIP: true # whether to record the IP address of the commenters
-  highlight: true # whether to highlight the code blocks
-  visitor: false # whether to display the number of visitors
+  placeholder: Just go go # valine 評論輸入佔位符（例如：請留下您的足跡）
+  guest_info: nick,mail,link # valine 評論頭部信息
+  recordIP: true # 是否記錄評論者的 IP 地址
+  highlight: true # 是否高亮代碼塊
+  visitor: false # 是否顯示訪客數量
 
 # https://waline.js.org
-# version 2.15.8
+# 版本 2.15.8
 waline:
   enable: true # 修正拼寫錯誤
   serverURL: https://web-eight-weld-65.vercel.app
@@ -305,15 +304,19 @@ giscus:
   reactionsEnabled: 1
   emitMetadata: 0
   inputPosition: bottom
-  # commentTheme: light # this option is invalid, because the theme is set by the theme itself
+  # commentTheme: light # 此選項無效，因為主題由主題本身設置
   lang: zh-CN
 
 ########################################
-# Search
+# 搜索
 ########################################
 
-# need https://github.com/D-Sketon/hexo-algoliasearch
-# please add the following config in your _config.yml
+# 需要 https://github.com/D-Sketon/hexo-algoliasearch
+# 請在您的 _config.yml 中添加以下配置
+algolia:
+  appId: 'your_application_id' # 替換為您的 Algolia 應用 ID
+  apiKey: 'your_search_only_api_key' # 替換為您的 Algolia 搜索 API 密鑰
+  indexName: 'your_index_name' # 替換為您的索引名稱
 # algolia:
 #   appId: 'your applicationID'
 #   apiKey: 'your apiKey'
@@ -335,8 +338,8 @@ algolia_search:
     per_page: 10
   labels:
     input_placeholder: "搜索....."
-    hits_empty: "未发现与 「${query}」相关内容"
-    hits_stats: "找到${hits}条结果（用时 ${time} ms）"
+    hits_empty: "未發現與 「${query}」相關內容"
+    hits_stats: "找到${hits}條結果（用時 ${time} ms）"
 
 generator_search:
   enable: false
@@ -344,16 +347,16 @@ generator_search:
   content: true
 
 ########################################
-# Animation
+# 動畫
 ########################################
 
-# Loader animation
+# 加載動畫
 preloader:
   enable: true
-  text: 少女祈禱中...
-  icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
+  text: 載入中...
+  icon: # 默認使用內聯 svg 以提高速度，您可以使用圖片網址，例如 '/images/taichi.png'
 
-# see https://github.com/D-Sketon/aos.js
+# 參見 https://github.com/D-Sketon/aos.js
 animation:
   enable: true
   options:
@@ -379,7 +382,7 @@ animation:
       section: fade-up
       nav: fade-up
 
-# see https://github.com/D-Sketon/mouse-firework
+# 參見 https://github.com/D-Sketon/mouse-firework
 firework:
   enable: true
   options:
@@ -406,54 +409,48 @@ firework:
           lineWidth: 6
 
 ########################################
-# Extended features
+# 擴展功能
 ########################################
 
-# Clipboard configuration
+# 剪貼板配置
 clipboard:
   success: 複製成功(*^▽^*)
   fail: 複製失敗(ﾟ⊿ﾟ)ﾂ
-  copyright: # whether to add a copyright for the clipped content
+  copyright: # 是否為剪貼內容添加版權
     enable: true
-    count: 50 # The number of characters when the copyright is displayed
+    count: 50 # 顯示版權時的字符數
     content: 本文版權：本部落格所有文章除特別聲明外，均使用 BY-NC-SA 許可協議。轉載請註明出處！
 
-# show categories card on home page
+# 在首頁顯示分類卡片
 home_categories:
   enable: true
   content:
-    - categories: hexo # string (single-layer category) or array (multi-layer category)
-      cover: /img/neko.webp # empty means random cover
+    - categories: hexo # 字符串（單層分類）或數組（多層分類）
+      cover: /img/neko.webp # 空表示隨機封面
 
-# whether to display the notification when the article is outdated
+# 是否在文章過期時顯示通知
 outdate:
   enable: true
-  daysAgo: 180 # The number of days after which the article is considered outdated
+  daysAgo: 180 # 文章被認為過期的天數
   message: 本文最后更新于 {time}，请注意文中内容可能已经发生变化。
 
-# Sponsor
+# 贊助
 sponsor:
   enable: false
   tip: 请作者喝杯咖啡吧！
   icon:
-    url: "../images/taichi.png" # this path is relative to the css/style.css, so it needs to go up one level to reach the images folder
+    url: "../images/taichi.png" # 此路徑相對於 css/style.css，因此需要向上一層到達 images 資料夾
     rotate: true
-    mask: true # whether to use the images as a mask
+    mask: true # 是否將圖片用作遮罩
   qr:
     # - name: 支付宝
     #   src: "/sponsor/alipay.jpg"
     # - name: 微信
     #   src: "/sponsor/wechat.png"
 
-# ICP 备案
-icp:
-  icpnumber: # ICP备案号
-  beian: # 网安备案号
-  recordcode: # 网安备案链接中的recordcode参数
-
-# show the copyright below each article
+# 在每篇文章下顯示版權
 article_copyright:
-  enable: false
+  enable: true
   content:
     author: true
     link: true
@@ -462,14 +459,14 @@ article_copyright:
     updated: false
     license: true
 
-# Back To Top
+# 返回頂部
 top:
   enable: true
   position: right # left or right
   icon:
-    url: "../images/taichi.png" # this path is relative to the css/style.css, so it needs to go up one level to reach the images folder
+    url: "../images/taichi.png" # 此路徑相對於 css/style.css，因此需要向上一層到達 images 資料夾
     rotate: true
-    mask: true # whether to use the images as a mask
+    mask: true # 是否將圖片用作遮罩
 
 share:
   # - facebook
@@ -481,46 +478,46 @@ share:
   # - weixin
 
 ########################################
-# Experimental features
+# 實驗性功能
 ########################################
 
-# Experimental, may have a lot of bugs, open with caution!
+# 實驗性功能，可能有很多錯誤，請謹慎開啟！
 pjax:
   enable: false
 
-# Experimental
+# 實驗性功能
 # https://github.com/GoogleChromeLabs/quicklink
 quicklink:
   enable: false
-  # The `requestIdleCallback` timeout, in milliseconds.
+  # `requestIdleCallback` 的超時時間，以毫秒為單位。
   timeout: 3000
-  # Whether or not the URLs within the options.el container should be treated as high priority.
+  # 是否應將 options.el 容器內的 URL 視為高優先級。
   priority: true
-  # Determine if a URL should be prefetched.
-  # Only support string
+  # 確定是否應預取 URL。
+  # 僅支持字符串
   ignores: []
 
 # https://github.com/CodeByZach/pace
 pace:
   enable: true
 
-# Experimental
+# 實驗性功能
 service_worker:
   enable: true
 
-# Experimental
+# 實驗性功能
 live2d:
   enable: false
   position: left # left or right
 
-# Experimental
-# Please turn on pjax to use this feature
+# 實驗性功能
+# 請開啟 pjax 以使用此功能
 live2d_widgets:
   enable: false
 
-# Experimental
+# 實驗性功能
 player:
-  # if you enable meting, you must enable aplayer first
+  # 如果您啟用了 meting，您必須先啟用 aplayer
   aplayer:
     # https://github.com/DIYgod/APlayer
     enable: false
@@ -537,20 +534,20 @@ player:
       lrcType:
   meting:
     # https://github.com/metowolf/MetingJS
-    # if you want to use meting, please enable aplayer first
+    # 如果您想使用 meting，請先啟用 aplayer
     enable: false
-    meting_api: # custom api
+    meting_api: # 自定義 api
     options:
       id: 2265921590
       server: netease
       type: playlist
 
 ########################################
-# Vendor
+# 供應商
 ########################################
 
-# Dependent cdn links
-# If you change the version of a js library, be sure to modify the corresponding integrity value
+# 依賴 cdn 連結
+# 如果您更改了 js 庫的版本，請務必修改相應的完整性值
 vendor:
   cdn_jsdelivr_gh: https://cdn.jsdelivr.net/gh/
   cdn_jsdelivr_npm: https://cdn.jsdelivr.net/npm/

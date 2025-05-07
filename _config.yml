@@ -3,9 +3,9 @@
 ## 原始碼： https://github.com/hexojs/hexo/
 
 # 網站
-title: 伊藤蒼太的部落格
-subtitle: '編程、學習、生活'
-description: '學徒工程師｜16歲的高中生'
+title: 伊藤蒼太's Blog
+subtitle: '編程、生活'
+description: '16歲の高校生'
 keywords: 編程,學習,生活
 author: 伊藤蒼太
 language: zh-TW
@@ -149,6 +149,7 @@ theme_config:
       url: "/images/taichi.png"
       rotate: true
       mask: true
+      color: "#0000FF" # 設置為藍色
 
   # 回到頂部配置
   top:
@@ -156,6 +157,7 @@ theme_config:
       url: "/images/taichi.png"
       rotate: true
       mask: true
+      color: "#0000FF" # 設置為藍色
 
   # 贊助配置
   sponsor:
@@ -163,12 +165,14 @@ theme_config:
       url: "/images/taichi.png"
       rotate: true
       mask: true
+      color: "#0000FF" # 設置為藍色
 
   # 預加載配置
   preloader:
     enable: true
-    text: 少女祈禱中...
+    text: 載入中...
     icon: "/images/taichi.png"
+    color: "#0000FF" # 設置為藍色
 
   # 錨點圖標
   anchor_icon: f0c1
