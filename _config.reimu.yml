@@ -395,7 +395,7 @@ firework:
       - shape: circle
         move: ["emit"]
         easing: easeOutExpo
-        colors: ["#0000FF", "#007FFF", "#00BFFF", "#87CEFA"] # 藍色漸變效果
+        colors: ["#ADD8E6", "#B0E0E6", "#87CEEB", "#E0FFFF"] # 更淡的藍色漸變效果
         number: 20
         duration: [1200, 1800]
         shapeOptions:
@@ -404,7 +404,7 @@ firework:
       - shape: circle
         move: ["diffuse"]
         easing: easeOutExpo
-        colors: ["#0000FF"] # 純藍色
+        colors: ["#ADD8E6"] # 純淺藍色
         number: 1
         duration: [1200, 1800]
         shapeOptions:
