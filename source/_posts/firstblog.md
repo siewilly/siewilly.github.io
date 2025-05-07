@@ -4,7 +4,7 @@ date: 2025-04-04 18:29:32
 tags: 
 	Hexo
 categories: hexo
-sticky: ture
+sticky: false
 cover: /img/sumire.webp
 ---
 

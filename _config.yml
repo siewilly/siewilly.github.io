@@ -149,7 +149,7 @@ theme_config:
       url: "/images/taichi.png"
       rotate: true
       mask: true
-      color: "#0000FF" # 設置為藍色
+      color: "#0000FF" # 確保設置為藍色
 
   # 回到頂部配置
   top:
@@ -157,7 +157,7 @@ theme_config:
       url: "/images/taichi.png"
       rotate: true
       mask: true
-      color: "#0000FF" # 設置為藍色
+      color: "#0000FF" # 確保設置為藍色
 
   # 贊助配置
   sponsor:
@@ -165,7 +165,7 @@ theme_config:
       url: "/images/taichi.png"
       rotate: true
       mask: true
-      color: "#0000FF" # 設置為藍色
+      color: "#0000FF" # 確保設置為藍色
 
   # 預加載配置
   preloader:

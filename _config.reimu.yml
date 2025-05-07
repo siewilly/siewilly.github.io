@@ -81,7 +81,8 @@ footer:
   icon:
     url: "../images/taichi.png" # 此路徑相對於 css/style.css，因此需要向上一層到達 images 資料夾
     rotate: true
-    mask: true # 是否將圖片用作遮罩
+    mask: true
+    color: "#0000FF" # 確保設置為藍色
 
 # 側邊欄
 sidebar: left
@@ -354,7 +355,8 @@ generator_search:
 preloader:
   enable: true
   text: 載入中...
-  icon: # 默認使用內聯 svg 以提高速度，您可以使用圖片網址，例如 '/images/taichi.png'
+  icon:
+    url: "../images/taichi.png" # 此路徑相對於 css/style.css，因此需要向上一層到達 images 資料夾
 
 # 參見 https://github.com/D-Sketon/aos.js
 animation:
@@ -467,6 +469,7 @@ top:
     url: "../images/taichi.png" # 此路徑相對於 css/style.css，因此需要向上一層到達 images 資料夾
     rotate: true
     mask: true # 是否將圖片用作遮罩
+    color: "#0000FF" # 確保設置為藍色
 
 share:
   # - facebook
@@ -618,7 +621,7 @@ vendor:
       integrity: sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg
     katex_auto_render:
       src: webcache|katex@0.16.11/dist/contrib/auto-render.min.js
-      integrity: sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk
+      integrity: sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeMIf/+rCMvRwr4yROQP43s0Xk
     mathjax:
       src: webcache|mathjax@3.2.2/es5/tex-mml-chtml.js
       integrity: sha384-Wuix6BuhrWbjDBs24bXrjf4ZQ5aFeFWBuKkFekO2t8xFU0iNaLQfp2K6/1Nxveei
