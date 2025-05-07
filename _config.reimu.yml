@@ -73,16 +73,9 @@ injector:
   sidebar_begin: # 在 <aside> 後注入代碼片段
   sidebar_end: # 在 </aside> 前注入代碼片段
 
-# 頁腳版權
-copyright: |-
-  <div style="flex-direction:column;align-items: center;">
-    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
-    </a>
-  </div>
 
 footer:
-  since: 2020 # 2020-當前年份
+  since: 2025 
   powered: true
   count: true # 顯示字數和閱讀時間
   busuanzi: true
@@ -586,7 +579,7 @@ vendor:
       integrity: sha384-9sbqJjrfGjbkI6/PI4nU/MvBfEmkkPC4YK9I4zBeMIf1CVCZdCMH/KinBEAZII/5
     twikoo:
       src: webcache|twikoo@1.6.16/dist/twikoo.all.min.js
-      integrity: sha384-lDHsr5aZmkMS0eKnsUu6e9RWP+dRmn7sgjRAKGOAoXfMyzbUK6Qi86zZK7R+KvRV
+      integrity: sha384-lDHsr5aZmkMS0eKnsUu6e9RWP+dRmn7sgJw7fuvXBt9W/OChF/Ijx+aUuBDqQwEk
     gitalk:
       src: webcache|gitalk@1.8.0/dist/gitalk.min.js
       integrity: sha384-kspnZUWBoSWwoJHa0hBCXYbHGbhvU/lcEH5O8eVbSDhbPwsiVUTp/aGX/z/5EuMA
