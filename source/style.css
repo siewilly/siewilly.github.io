@@ -2156,9 +2156,11 @@ pre .javascript .function {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
+  gap: 20px;
+  justify-content: center;
 }
 .friend-item-wrap {
-  width: 48%;
+  width: 200px;
   height: 100px;
   background: var(--color-wrap);
   box-shadow: 0 0 10px 2px var(--color-hover-shadow);
@@ -2167,10 +2169,12 @@ pre .javascript .function {
   display: flex;
   margin: 1%;
   transition: 0.3s;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 .friend-item-wrap:hover {
-  transform: scale(1.015);
-  box-shadow: 0 0 10px 4px var(--color-hover-shadow);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 767px) {
   .friend-item-wrap {
@@ -2218,6 +2222,8 @@ pre .javascript .function {
   flex-direction: column;
   padding: 0 8px;
   overflow: hidden;
+  padding: 10px;
+  text-align: center;
 }
 .friend-info-wrap div {
   margin: 10px 0;
@@ -2229,6 +2235,9 @@ pre .javascript .function {
   font-size: 18px;
   font-weight: bold;
   white-space: nowrap;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
 }
 .friend-desc {
   color: var(--grey-9);
@@ -2237,6 +2246,8 @@ pre .javascript .function {
   line-clamp: 2;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  font-size: 0.9em;
+  color: var(--grey-9);
 }
 .post-link-card-wrap {
   display: flex;
