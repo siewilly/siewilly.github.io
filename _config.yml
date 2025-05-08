@@ -5,7 +5,7 @@
 # 網站
 title: 伊藤蒼太's Blog
 subtitle: '編程、生活'
-description: '16歲の高校生'
+description: 'Professional Bug Creator'
 keywords: 編程,學習,生活
 author: 伊藤蒼太
 language: zh-TW
@@ -185,6 +185,10 @@ theme_config:
       pointer: /images/cursor/reimu-cursor-pointer.png
       text: /images/cursor/reimu-cursor-text.png
 
+  covers:
+    enable: true
+    data: source/_data/covers.yml # 確保路徑正確
+
 feed:
   enable: true
   type: atom
@@ -207,4 +211,4 @@ markdown_it_plus:
   linkify: true
   typographer: true
   quotes: '""'''''
-  rawLaTeX: false # 新增
+  rawLaTeX: false
