@@ -425,10 +425,10 @@ clipboard:
 
 # 在首頁顯示分類卡片
 home_categories:
-  enable: true
+  enable: false
   content:
     - categories: hexo # 字符串（單層分類）或數組（多層分類）
-      cover: /img/neko.webp # 空表示隨機封面
+      cover:  # 空表示隨機封面
 
 # 是否在文章過期時顯示通知
 outdate:
