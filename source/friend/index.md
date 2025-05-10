@@ -1,5 +1,5 @@
 ---
-title: 連結
+title: 朋友
 comments: true
 ---
 

@@ -133,7 +133,7 @@ theme_config:
     - name: 關於
       url: /
       icon:
-    - name: 歷史
+    - name: 歸檔
       url: /archives
       icon: 
     - name: 關於
