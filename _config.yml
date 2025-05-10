@@ -133,15 +133,18 @@ theme_config:
     - name: 關於
       url: /
       icon:
+    - name: 解題
+      url: /portfolio
+      icon:
     - name: 歸檔
       url: /archives
-      icon: 
+      icon:
     - name: 關於
       url: /about
-      icon: 
+      icon:
     - name: 朋友
       url: /friend
-      icon: 
+      icon:
 
   # 底部配置
   footer:
