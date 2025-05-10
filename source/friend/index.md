@@ -12,11 +12,11 @@ comments: true
 - 增加本站後，在本頁留言，格式如下
 
 ~~~yml
-- name: #您的名字
-  url: #您的网址
-  desc: #简短描述
-  image: #一张图片
+- name: #名字
+  url: #網址
+  desc: #描述
+  image: #圖片
 ~~~
 
-## 小伙伴们
+## 朋友們
 {% friendsLink friend/_data.yml %}
