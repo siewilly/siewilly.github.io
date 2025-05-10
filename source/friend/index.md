@@ -1,24 +1,21 @@
 ---
-title: 友情链接
+title: 朋友
 comments: true
 ---
 
-## 本站信息
-- 站名： 拔剑Sketon
-- 站长： 拔剑Sketon
-- 地址： https://d-sketon.top/
-- 备用地址：https://d-sketon.github.io/
+## 本站資訊
+- 站名： 伊藤蒼太's blog
+- 站長： 伊藤蒼太
+- 網址： https://itousouta15.github.io
 
-## 申请方法
-- 添加本站后，在本页留言，格式如下
+## 申請方法
+- 增加本站後，在本頁留言，格式如下
 
 ~~~yml
-```yml
 - name: #您的名字
   url: #您的网址
   desc: #简短描述
   image: #一张图片
-```
 ~~~
 
 ## 小伙伴们
