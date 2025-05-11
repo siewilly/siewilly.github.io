@@ -5,7 +5,7 @@ tags:
   比賽
 categories: 心得
 sticky: false
-cover: /img/hackit.png
+cover: /img/hackit.webp
 ---
 # 奇怪的黑客松
 
