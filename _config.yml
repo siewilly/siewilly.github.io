@@ -130,7 +130,7 @@ theme_config:
 
   # 菜單配置
   menu:
-    - name: 關於
+    - name: 首頁
       url: /
       icon:
     - name: 解題
