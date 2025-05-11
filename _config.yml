@@ -184,9 +184,9 @@ theme_config:
   reimu_cursor:
     enable: true
     cursor:
-      default: /images/cursor/reimu-cursor-default.png
-      pointer: /images/cursor/reimu-cursor-pointer.png
-      text: /images/cursor/reimu-cursor-text.png
+      default: /img/cursor/1.png
+      pointer: /img/cursor/2.png
+      text: /img/cursor/3.png
 
   covers:
     enable: true

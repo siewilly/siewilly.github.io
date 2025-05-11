@@ -140,9 +140,9 @@ anchor_icon: # 預設使用 '#' 圖標，您可以使用 fontawesome 或 icon_fo
 reimu_cursor:
   enable: true
   cursor:
-    default: ../images/cursor/reimu-cursor-default.png  # 此路徑相對於 css/style.css，因此需要向上一層到達 images 資料夾
-    pointer: ../images/cursor/reimu-cursor-pointer.png
-    text: ../images/cursor/reimu-cursor-text.png
+    default: ../img/cursor/1.png  # 此路徑相對於 css/style.css，因此需要向上一層到達 images 資料夾
+    pointer: ../img/cursor/2.png
+    text: ../img/cursor/3.png
 
 # 設置為 false 以啟用 fontawesome
 icon_font: false
