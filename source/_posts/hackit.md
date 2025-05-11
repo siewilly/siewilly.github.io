@@ -13,7 +13,6 @@ cover: /img/hackit.webp
 
 # 曲折的準備過程
 
-既然這次Scrapyard Taiwan黑客松的主題是「Build stupid s#!t, get stupid prizes」，我們就在想到底有甚麼是愚蠢又可行的方案
 
 # 比賽經過
 
