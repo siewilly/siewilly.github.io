@@ -576,7 +576,6 @@ if __name__ == "__main__":
 FLAG:
 ```AIS3{b451c_h1ll_c1ph3r_15_2_3z_f0r_u5}```
 ## Happy Happy Factoring 
-## Happy Happy Factoring 
 這是一個經典的多算法組合攻擊:
 - wi：Williams' p+1 算法
 - po：Pollard's p-1 算法
