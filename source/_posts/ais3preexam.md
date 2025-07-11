@@ -1,10 +1,9 @@
 ---
 title: AIS3 pre-exam 2025
 date: 2025-07-11 13:32:32
-tags: 
-	AIS3
+tags:
+  - AIS3
 categories: 資安
-sticky: false
 cover: /img/ais3.webp
 ---
 # 前言
@@ -12,22 +11,7 @@ cover: /img/ais3.webp
 這是我的第一次CTF
 打得很爛writeup也寫得很爛
 ~~為了各位的眼睛著想請不要繼續往下看~~
-
-# 目錄
-
-- [Web](#web)
-  - [tomorin db](#tomorin-db)
-  - [Login Screen 1](#login-screen-1)
-- [Misc](#misc)
-  - [Ramen CTF](#ramen-ctf)
-  - [AIS3 Tiny Server - Web / Misc](#ais3-tiny-server---web--misc)
-  - [Welcome](#welcome)
-- [Crypto](#crypto)
-  - [SlowECDSA](#slowecdsa)
-  - [Stream](#stream)
-  - [Hill](#hill)
-  - [Happy Happy Factoring](#happy-happy-factoring)
-
+<!-- more -->
 # web
 ## tomorin db
 ### 題目觀察
