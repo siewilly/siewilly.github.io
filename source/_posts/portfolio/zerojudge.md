@@ -139,3 +139,49 @@ int main()
     return 0;
 }
 ```
+## TOI
+### n630. 電影院 (Cinema)
+```CPP
+#include <bits/stdc++.h>
+using namespace std;
+
+struct movtime {
+    int h;
+    int m;
+    int tm() const {
+        return h * 60 + m;
+    }
+    void print() const {
+    cout << setw(2) << setfill('0') << h << " "
+            << setw(2) << setfill('0') << m << "\n";
+    }
+};
+
+int main() {
+    int n;
+    cin >> n;
+    vector<movtime> times(n);
+    for (int i = 0; i < n; i++) {
+        cin >> times[i].h >> times[i].m;
+    }
+
+    movtime now;
+    cin >> now.h >> now.m;
+    int ntm = now.tm() + 20;
+
+    bool found = false;
+    for (const movtime& movie : times) {
+        if (movie.tm() >= ntm) {
+            movie.print();
+            found = true;
+            break;
+        }
+    }
+
+    if (!found) {
+        cout << "Too Late" << endl;
+    }
+
+    return 0;
+}
+```
