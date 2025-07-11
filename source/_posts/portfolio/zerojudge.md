@@ -185,3 +185,52 @@ int main() {
     return 0;
 }
 ```
+### n631. 撲克 (Poker)
+這題我一整個讀錯題義
+我用觀察排序後的關係，去估算可湊出幾副牌和缺了多少張；這題應該是要用「每個牌號出現幾次」來精準對應牌組數量與缺少數。直接套用組合的數學關係即可。
+```CPP 錯誤寫法
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n,cnt=52,r=0;
+    cin >> n;
+    vector<int>poker(n);
+    for(int i=0;i<n;i++){
+        cin >> poker[i];
+    }
+    int d = n/52;
+    for (int i = 1; i < poker.size(); i++) {
+        if (poker[i] ==poker[i - 1]+1) cnt--;
+    }
+    sort(poker.begin(), poker.end());
+    for (int i = 1; i < poker.size(); i++) {
+        if (poker[i] == poker[i - 1]){
+                r++;
+                cnt+=52-r;
+        }
+    }
+    cout << d << " " << cnt << "\n";
+}
+```
+```CPP 正解
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n;
+    cin >> n;
+    vector<int> cnt(53, 0);
+    for(int i = 0; i < n; ++i){
+        int k;
+        cin >> k;
+        cnt[k]++;
+    }
+    int last = *min_element(cnt.begin() + 1, cnt.end());
+    int most = *max_element(cnt.begin() + 1, cnt.end());
+    int tn = most * 52;
+    int add = tn - n;
+
+    cout << last << " " << add << "\n";
+}
+```
