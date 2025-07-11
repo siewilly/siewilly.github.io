@@ -576,6 +576,7 @@ if __name__ == "__main__":
 FLAG:
 ```AIS3{b451c_h1ll_c1ph3r_15_2_3z_f0r_u5}```
 ## Happy Happy Factoring 
+## Happy Happy Factoring 
 這是一個經典的多算法組合攻擊:
 - wi：Williams' p+1 算法
 - po：Pollard's p-1 算法
@@ -584,6 +585,146 @@ FLAG:
 先用 Pollard's p-1 找到 po,移除 po² 後用 Williams' p+1 找到 wi,最後用 Fermat 方法分解剩餘部分
 
 獲得所有因數後計算歐拉函數並解密。
+```python
+import gmpy2
+from collections import Counter
+
+def read_input(filename="output.txt"):
+    with open(filename, "r") as f:
+        lines = f.read().strip().splitlines()
+        n = int(lines[0].split(" = ")[1])
+        e = int(lines[1].split(" = ")[1])
+        c = int(lines[2].split(" = ")[1])
+        return n, e, c
+
+def generate_prime_list():
+    return [p for p in range(3, 5000) if gmpy2.is_prime(p)]
+
+def pollard_p_minus_1(n, prime_list):
+    a = gmpy2.mpz(2)
+    for _ in range(86):
+        a = gmpy2.powmod(a, 2, n)
+    for p in prime_list:
+        for _ in range(85):
+            a = gmpy2.powmod(a, p, n)
+    return gmpy2.gcd(a - 1, n)
+
+def extract_factor(gcd_val, n, expected_power=1):
+    if gcd_val in [1, n]: return None
+    if gmpy2.is_prime(gcd_val): return int(gcd_val)
+    temp = gcd_val
+    factors = []
+    for p in [2] + generate_prime_list():
+        while temp % p == 0:
+            factors.append(p)
+            temp //= p
+        if temp == 1:
+            break
+    if temp > 1 and gmpy2.is_prime(temp): factors.append(int(temp))
+    counts = Counter(factors)
+    for f, count in counts.items():
+        if count >= expected_power and gmpy2.is_prime(f):
+            return f
+    return None
+
+def lucas_V(k, P, N):
+    if k == 0: return 2
+    if k == 1: return P
+    V0, V1 = 2, P
+    for bit in bin(k)[3:]:
+        if bit == "0":
+            V1 = (V0 * V1 - P) % N
+            V0 = (V0 * V0 - 2) % N
+        else:
+            V0 = (V0 * V1 - P) % N
+            V1 = (V1 * V1 - 2) % N
+    return V1
+
+def williams_p_plus_1(n, prime_list, P=3):
+    V = P
+    for _ in range(86):
+        V = lucas_V(2, V, n)
+    for p in prime_list:
+        for _ in range(85):
+            V = lucas_V(p, V, n)
+    return gmpy2.gcd(V - 2, n)
+
+def fermat(n, max_iter=200_000_000):
+    a = gmpy2.isqrt(n) + 1
+    for i in range(max_iter):
+        b2 = a * a - n
+        b = gmpy2.isqrt(b2)
+        if b * b == b2:
+            return int(a + b), int(a - b)
+        if i % 1_000_000 == 0 and i > 0:
+            print(f"    [Fermat] 嘗試 {i:,} 次...")
+        a += 1
+    return None, None
+
+def rsa_decrypt(n, e, c, po, wi, fp, fq):
+    phi = po * (po - 1) * (wi - 1) * (fp - 1) * (fq - 1)
+    d = gmpy2.invert(e, phi)
+    m = gmpy2.powmod(c, d, n)
+    flag = int(m).to_bytes((m.bit_length() + 7) // 8, 'big').decode()
+    return phi, d, m, flag
+
+def main():
+    print("[*] 讀取 RSA 公開參數")
+    n, e, c = read_input()
+    primes = generate_prime_list()
+
+    print("[*] Step 1: Pollard p-1")
+    g = pollard_p_minus_1(n, primes)
+    po = extract_factor(g, n, expected_power=2)
+    if not po: raise Exception("找不到 po")
+    n1 = n // (po * po)
+
+    print("[*] Step 2: Williams p+1 or fallback")
+    wi = None
+    for base in [3, 5, 7, 11, 13, 17, 19, 23]:
+        g = williams_p_plus_1(n1, primes, base)
+        candidate = extract_factor(g, n1)
+        if candidate and gmpy2.is_prime(candidate):
+            wi = candidate
+            break
+    if not wi:
+        print("[!] Williams p+1 失敗，改用 Fermat")
+        f1, f2 = fermat(n1)
+        if f1 and gmpy2.is_prime(f1):
+            wi, n2 = f1, f2
+        elif f2 and gmpy2.is_prime(f2):
+            wi, n2 = f2, f1
+        else:
+            raise Exception("找不到 wi")
+    else:
+        n2 = n1 // wi
+
+    print("[*] Step 3: Fermat 分解 fp, fq")
+    fp, fq = fermat(n2)
+    if fp < fq:
+        fp, fq = fq, fp
+
+    print("[*] Step 4: RSA 解密")
+    phi, d, m, flag = rsa_decrypt(n, e, c, po, wi, fp, fq)
+
+    print("\n🎉 解密成功！以下是詳細資訊：")
+    print("\n已找到因子：")
+    print(f"po = {po}")
+    print(f"wi = {wi}")
+    print(f"fp = {fp}")
+    print(f"fq = {fq}\n")
+    print(f"phi_n = {phi}\n")
+    print(f"d = {d}")
+    print(f"m = {m}")
+    print(f"\n🚩 Flag: {flag}")
+
+if __name__ == "__main__":
+    main()
+
+```
+![](/img/結果.png)
+我們就得到了FLAG:
+`AIS3{H@ppY_#ap9y_CRypT0_F4(7or1n&~~~}`
 
 # 結尾
 
