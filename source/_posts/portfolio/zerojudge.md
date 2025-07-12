@@ -1,6 +1,6 @@
 ---
 title: Zerojudge題解
-cover: /img/ZJ.png
+cover: /img/ZJ.webp
 date: 2025-07-11 12:00:00
 tags:
   - Zerojudge

@@ -5,7 +5,7 @@ tags:
 	Hexo
 categories: 前端
 sticky: false
-cover: /img/mainweb.png
+cover: /img/mainweb.webp
 ---
 
 # C++到前端的跨界初體驗

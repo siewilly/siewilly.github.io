@@ -16,7 +16,7 @@ cover: /img/ais3.webp
 ## tomorin db
 ### 題目觀察
 首先點進題目提供的網址 http://chals1.ais3.org:30000/ :
-![](/img/tomorin.png)
+![](/img/tomorin.webp)
 可以看到其中有四個檔案
 - cute.jpg
 - flag
@@ -24,7 +24,7 @@ cover: /img/ais3.webp
 - tomorin.jpg
 
 其中三個是圖片,**但flag點進去會跳轉到[MyGO!!!!!的聿日箋秋](https://www.youtube.com/watch?v=lQuWN0biOBU)** ~~又在GO~~
-![](/img/MyGO.png)
+![](/img/MyGO.webp)
 
 
 ### 漏洞分析
@@ -32,7 +32,7 @@ cover: /img/ais3.webp
 ### 繞過思路
 經過嘗試,我發現如果我們用URL編碼 **(%2f)** 再加上flag就不會被轉址
 所以我在根網址後加上 ***/%2fflag***
-![](/img/成功訪問.png)
+![](/img/成功訪問.webp)
 
 我們就可以得到flag
 ```
@@ -41,13 +41,13 @@ AIS3{G01ang_H2v3_a_c0O1_way!!!_Us3ing_C0NN3ct_M3Th07_L0l@T0m0r1n_1s_cute_D0_yo7_
 ## Login Screen 1
 ### 頁面分析
 點進網頁後我們看到了一個登入介面
-![](/img/登入畫面.png)
+![](/img/登入畫面.webp)
 包含:
 - Username 輸入框
 - Password 輸入框
 - Login 按鈕
 ### 注入攻擊
-![](/img/FLAGG.png)
+![](/img/FLAGG.webp)
 我們就得到FLAG:
 ```
 AIS3{1.Es55y_SQL_1nJ3ct10n_w1th_2fa_IuABDADGeP0}
@@ -69,16 +69,16 @@ AIS3{1.Es55y_SQL_1nJ3ct10n_w1th_2fa_IuABDADGeP0}
 - 賣方編號 3478592...
 
 接下來用QRcode掃描程式得知:
-![](/img/QRcode.png)
+![](/img/QRcode.webp)
 - 發票完整號碼 MF16879911
 - 餐點是蝦拉麵
 ### 地址尋找
 將上面的資料輸入[財政部電子發票整合平台](https://www.einvoice.nat.gov.tw/portal/btc/audit/btc601w/search)
 
-![](/img/完整資訊.png)
+![](/img/完整資訊.webp)
 我們就得到了地址,再把地址輸入Google Map
 我們可以找到一家 **樂山溫泉拉麵**
-![](/img/Map.png)
+![](/img/Map.webp)
 
 我們就可以得到Flag
 ```
@@ -87,18 +87,18 @@ AIS3{樂山溫泉拉麵:蝦拉麵}
 ## AIS3 Tiny Server - Web / Misc
 首先點進題目提供的網址用好token之後
 我們會來到 http://chals1.ais3.org:20096/index.html
-![](/img/Tiny-server.png)
+![](/img/Tiny-server.webp)
 我就把常見的隱藏路徑都加上去,多次嘗試後發現**加//可以叫出文件目錄**
-![](/img/目錄.png)
+![](/img/目錄.webp)
 裡面有很多檔案,我就點了檔名有flag的**readable_flag_jkO47trw1ctKlOIFC7smx7hivqoCPL8Y**
-![](/img/FLAG.png)
+![](/img/FLAG.webp)
 我們就得到了flag:
 ```
 AIS3{tInY_we8_53Rv3R_wi7H_fILe_8R0Ws1nG_AS_@_FeAtURe}
 ```
 ## Welcome
 ### 我就直接打上去owo
-![](/img/welcome.png)
+![](/img/welcome.webp)
 # crypto
 ## SlowECDSA
 
@@ -276,7 +276,7 @@ if __name__ == "__main__":
 ```
 
 執行後,我們得到了Flag：
-![](/img/response.png)
+![](/img/response.webp)
 ```
 AIS3{Aff1n3_nounc3s_c@N_bE_broke_ezily...}
 ```
@@ -284,8 +284,8 @@ AIS3{Aff1n3_nounc3s_c@N_bE_broke_ezily...}
 ## Stream
 根據題目提供的python程式,我們看到了這個加密方案的缺陷:
 **當明文相對於密鑰較小時，XOR 運算的結果主要由密鑰決定**
-所以我們可以利用數學關西逆向攻擊
-![](/img/缺陷.png)
+所以我們可以利用數學關係逆向攻擊
+![](/img/缺陷.webp)
 ### **思路**
 現在我們知道加密公式為:
 ```
@@ -360,7 +360,7 @@ if not found_flag:
     print("建議增加 search_width 或檢查加密假設")
 ```
 運行後我們就拿到了flag:
-![](/img/print.png)
+![](/img/print.webp)
 ```
 AIS3{no_more_junks...plz}
 ```
@@ -572,7 +572,7 @@ if __name__ == "__main__":
     solve()
 ```
 執行後,我們得到:
-![](/img/FLAGGG.png)
+![](/img/FLAGGG.webp)
 FLAG:
 ```AIS3{b451c_h1ll_c1ph3r_15_2_3z_f0r_u5}```
 ## Happy Happy Factoring 
@@ -721,7 +721,7 @@ if __name__ == "__main__":
     main()
 
 ```
-![](/img/結果.png)
+![](/img/結果.webp)
 我們就得到了FLAG:
 `AIS3{H@ppY_#ap9y_CRypT0_F4(7or1n&~~~}`
 
