@@ -14,7 +14,7 @@ timezone: 'Asia/Taipei'
 # 網址
 ## 在此設置您的網站網址。例如，如果您使用 GitHub Pages，請將網址設置為 'https://username.github.io/project'
 url: https://itousouta15.github.io
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:urlname/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # 設置為 false 以移除網址中的 'index.html'
@@ -130,19 +130,19 @@ theme_config:
 
   # 菜單配置
   menu:
-    - name: 首頁
+    - name: home
       url: /
       icon:
-    - name: 解題
+    - name: portfolio
       url: /portfolio
       icon:
-    - name: 歸檔
+    - name: archives
       url: /archives
       icon:
-    - name: 關於
+    - name: about
       url: /about
       icon:
-    - name: 朋友
+    - name: friend
       url: /friend
       icon:
 

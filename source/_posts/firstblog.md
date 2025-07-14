@@ -2,10 +2,10 @@
 title: 第一次架網站的心得
 date: 2025-04-04 18:29:32
 tags: 
-	Hexo
-categories: 前端
+  - Hexo
 sticky: false
 cover: /img/mainweb.webp
+urlname: firstblog
 ---
 
 # C++到前端的跨界初體驗

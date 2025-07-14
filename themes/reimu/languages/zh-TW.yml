@@ -1,3 +1,8 @@
+home: 首頁
+portfolio: 解題
+archives: 歸檔
+about: 關於
+friend: 朋友
 categories: 分類
 search: 搜尋
 tags: 標籤
@@ -19,11 +24,6 @@ rss_feed: RSS 訂閱
 category: Category
 tag: Tag
 toc: 文章目錄
-
-home: 首頁
-about: 關於
-friend: 友鏈
-archives: 歸檔
 
 sidebar:
   post: 文章

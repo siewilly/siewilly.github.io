@@ -126,12 +126,10 @@ show_count: false
 recent_posts_limits: 5
 
 i18n:
-  enable: false
+  enable: true
   languages:
     - zh-TW
     - en
-    - ja
-
 ########################################
 # CSS
 ########################################
@@ -248,7 +246,7 @@ valine:
   appKey: # leancloud 應用程序 app key
   pageSize: 10 # 評論列表頁大小
   avatar: mp # gravatar 樣式 https://valine.js.org/#/avatar
-  lang: zh-tw # i18n: zh-cn/en
+  lang: zh-  # i18n: zh-cn/en
   placeholder: Just go go # valine 評論輸入佔位符（例如：請留下您的足跡）
   guest_info: nick,mail,link # valine 評論頭部信息
   recordIP: true # 是否記錄評論者的 IP 地址
@@ -309,7 +307,7 @@ giscus:
   emitMetadata: 0
   inputPosition: bottom
   # commentTheme: light # 此選項無效，因為主題由主題本身設置
-  lang: zh-CN
+  lang: zh-TW
 
 ########################################
 # 搜索
