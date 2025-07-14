@@ -4,6 +4,7 @@ date: 2025-07-11 13:32:32
 tags:
   - AIS3
 cover: /img/ais3/ais3.webp
+urlname: AIS3
 ---
 # 前言
 
