@@ -76,9 +76,9 @@ This was the most interesting problem for me.
 ### Problem Observation
 
 They gave us an image:
-![](/img/ais3/chal.jpg)
+![](/img/ais3/chal.webp)
 The only valuable thing in it is the receipt, so I thought about whether I could find some information using the receipt's details.
-![](/img/ais3/發票.jpg)
+![](/img/ais3/發票.webp)
 We can get the following information:
 
   - 平和.... (Heihwa....)
