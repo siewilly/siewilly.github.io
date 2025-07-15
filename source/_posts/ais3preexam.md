@@ -57,9 +57,9 @@ AIS3{1.Es55y_SQL_1nJ3ct10n_w1th_2fa_IuABDADGeP0}
 這題是我覺得最有趣的
 ### 題目觀察
 他給我們了一張圖片
-![](/img/ais3/chal.jpg)
+![](/img/ais3/chal.webp)
 裡面有價值的只有那張發票,我就想到用發票的資訊是不是能查到一些資料
-![](/img/ais3/發票.jpg)
+![](/img/ais3/發票.webp)
 
 可以得到以下資訊:
 - 平和....
