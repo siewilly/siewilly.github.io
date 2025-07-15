@@ -81,15 +81,15 @@ comments: true
       </div>
     </div>
     <div class="friend-item-wrap">
-      <a href="" rel="external nofollow noopener noreferrer" target="_blank"></a>
+      <a href="https://nangong5421.github.io/" rel="external nofollow noopener noreferrer" target="_blank"></a>
       <div class="friend-icon-wrap">
         <div class="friend-icon">
-          <img data-src="https://cdn.discordapp.com/avatars/1124954310527164456/26a7a2146a82bc8568310acbd59b05af.png?size=1024" data-sizes="auto" alt="鴨鴨" class="lazyautosizes lazyloaded" sizes="70px" src="https://cdn.discordapp.com/avatars/1124954310527164456/26a7a2146a82bc8568310acbd59b05af.png?size=1024">
+          <img data-src="/img/南宮.webp" data-sizes="auto" alt="南宮柳信" class="lazyautosizes lazyloaded" sizes="70px" src="/img/南宮.webp">
         </div>
       </div>
       <div class="friend-info-wrap">
-        <div class="friend-name">鴨鴨</div>
-        <div class="friend-desc">婆</div>
+        <div class="friend-name">南宮柳信</div>
+        <div class="friend-desc">電到我抬不起頭</div>
       </div>
     </div>
   </div>
