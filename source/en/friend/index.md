@@ -59,12 +59,36 @@ Leave a comment on this page with the following format:
       <a href="https://frankk.uk/" rel="external nofollow noopener noreferrer" target="_blank"></a>
       <div class="friend-icon-wrap">
         <div class="friend-icon">
-          <img data-src="/img/frank.webp" data-sizes="auto" alt="Small R" class="lazyautosizes lazyloaded" sizes="70px" src="/img/frank.webp">
+          <img data-src="/img/frank.webp" data-sizes="auto" alt="Frank" class="lazyautosizes lazyloaded" sizes="70px" src="/img/frank.webp">
         </div>
       </div>
       <div class="friend-info-wrap">
         <div class="friend-name">Frank</div>
         <div class="friend-desc">資安電佬一個</div>
+      </div>
+    </div>
+    <div class="friend-item-wrap">
+      <a href="https://yuzen9622.github.io/" rel="external nofollow noopener noreferrer" target="_blank"></a>
+      <div class="friend-icon-wrap">
+        <div class="friend-icon">
+          <img data-src="/img/smallZ.webp" data-sizes="auto" alt="Small Z" class="lazyautosizes lazyloaded" sizes="70px" src="/img/smallZ.webp">
+        </div>
+      </div>
+      <div class="friend-info-wrap">
+        <div class="friend-name">Small Z</div>
+        <div class="friend-desc">前端電佬一個</div>
+      </div>
+    </div>
+    <div class="friend-item-wrap">
+      <a href="" rel="external nofollow noopener noreferrer" target="_blank"></a>
+      <div class="friend-icon-wrap">
+        <div class="friend-icon">
+          <img data-src="https://cdn.discordapp.com/avatars/1124954310527164456/26a7a2146a82bc8568310acbd59b05af.png?size=1024" data-sizes="auto" alt="鴨鴨" class="lazyautosizes lazyloaded" sizes="70px" src="https://cdn.discordapp.com/avatars/1124954310527164456/26a7a2146a82bc8568310acbd59b05af.png?size=1024">
+        </div>
+      </div>
+      <div class="friend-info-wrap">
+        <div class="friend-name">鴨鴨</div>
+        <div class="friend-desc">婆</div>
       </div>
     </div>
   </div>
