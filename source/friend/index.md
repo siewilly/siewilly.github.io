@@ -59,7 +59,7 @@ comments: true
   <div class="friend-item-wrap">
       <a href="https://frankk.uk/" rel="external nofollow noopener noreferrer" target="_blank"></a>
       <div class="friend-icon-wrap">
-        <div class="friend-icon">
+        <div class="friend-">
           <img data-src="/img/frank.webp" data-sizes="auto" alt="Frank" class="lazyautosizes lazyloaded" sizes="70px" src="/img/frank.webp">
         </div>
       </div>

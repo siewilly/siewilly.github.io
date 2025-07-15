@@ -19,9 +19,7 @@ menu:
     url: /friend
     icon:
 
-banner: "/img/banner.webp" # 表示 themes/reimu/source/images/banner.webp
-# 您也可以使用以下網址形式
-# banner: "https://example.com"
+banner: "/img/banner.webp"
 
 # 如果您想使用 srcset 屬性，請啟用它
 banner_srcset:
@@ -34,25 +32,16 @@ banner_srcset:
     - src: "/img/banner.webp"
       media: "(min-width: 800px)"
 
-favicon: "/images/favicon.ico" # 表示 themes/reimu/source/images/favicon.ico
-# 您也可以使用以下網址形式
-# favicon: "https://example.com"
+favicon: "/images/favicon.ico"
 
-avatar: "avatar.webp" # 表示 source/_data/avatar/avatar.webp
+avatar: "avatar.webp" 
 
 # Open Graph
 # 參見 https://hexo.io/docs/helpers#open-graph
 open_graph:
   enable: true
   options:
-    #twitter_card: <twitter:card>
-    #twitter_id: <twitter:creator>
-    #twitter_site: <twitter:site>
-    #twitter_image: <twitter:image>
-    #google_plus: <g+:profile_link>
-    #fb_admins: <fb:admin_id>
-    #fb_app_id: <fb:app_id>
-    default_og_image: /img/banner.webp # Open Graph 的預設 og:image，支援絕對路徑
+    default_og_image: /img/banner.webp 
 
 # 內容
 excerpt_link: 閱讀更多
@@ -90,29 +79,8 @@ sidebar: left
 social:
   email: mailto:kuoray333@gmail.com
   github: https://github.com/itousouta15
-  # google: https://plus.google.com/yourname
-  # twitter: https://twitter.com/yourname
-  # facebook: https://www.facebook.com/yourname
   instagram: https://www.instagram.com/itou.souta15
-  # linkedin: https://www.linkedin.com/in/yourname
-  # pinterest: https://www.pinterest.com/yourname
-  # youtube: https://www.youtube.com/channel/yourname
-  # vimeo: https://vimeo.com/yourname
-  # flickr: https://www.flickr.com/photos/yourname
-  # dribbble: https://dribbble.com/yourname
-  # behance: https://www.behance.net/yourname
-  # bilibili: https://b23.tv/Lmova1Ae
-  # weibo: https://weibo.com/yourname
-  # zhihu: https://www.zhihu.com/people/yourname
-  # reddit: https://www.reddit.com/user/yourname
-  # tumblr: https://yourname.tumblr.com
-  # medium: https://medium.com/@yourname
-  # deviantart: https://yourname.deviantart.com
-  # stackoverflow: https://stackoverflow.com/users/yourname
-  # keybase: https://keybase.io/yourname
-  # telegram: https://t.me/yourname
   discord: https://discord.gg/GVhwRRVJ7F
-  #steam: https://steamcommunity.com/id/itousouta15/
 
 widgets:
   - category
@@ -133,7 +101,7 @@ i18n:
 ########################################
 # CSS
 ########################################
-anchor_icon: # 預設使用 '#' 圖標，您可以使用 fontawesome 或 icon_font 的十六進制表示，例如 'f0c1'
+anchor_icon: f0c1
 
 reimu_cursor:
   enable: true
@@ -151,9 +119,9 @@ font:
     - Mulish
     - Noto Serif SC
   code:
-    # - Ubuntu Mono
-    # - Source Code Pro
-    # - JetBrains Mono
+    - Ubuntu Mono
+    - Source Code Pro
+    - JetBrains Mono
 
 # 本地備選字體
 local_font:
@@ -184,13 +152,12 @@ markdown:
 
 # 需要 https://github.com/D-Sketon/hexo-renderer-markdown-it-plus
 math:
-  enable: false
-  # 如果您不想使用它，請將 `autoRender` 設置為 true 以啟用瀏覽器渲染
+  enable: true 
   katex:
     enable: true
-    autoRender: false # 是否在瀏覽器中渲染數學公式，默認禁用
+    autoRender: true 
   mathjax:
-    enable: false
+    enable: true
     options: # 參見 https://docs.mathjax.org/en/latest/web/configuration.html
       {
         tex: {
@@ -219,10 +186,6 @@ mermaid:
   enable: true
 
 code_block:
-  # 是否默認展開代碼塊
-  # true 表示默認展開所有代碼塊
-  # false 表示默認折疊所有代碼塊
-  # 數字表示當行數超過指定值時默認折疊代碼塊
   expand: true
 
 ##########################################################
@@ -237,24 +200,6 @@ clarity: false
 # 評論系統
 ########################################
 
-# valine 評論系統。https://valine.js.org
-# 版本 1.5.1
-# notify 和 verify 已被棄用
-valine:
-  enable: false # 如果您想使用 valine，請將此值設置為 true
-  appId: # leancloud 應用程序 app id
-  appKey: # leancloud 應用程序 app key
-  pageSize: 10 # 評論列表頁大小
-  avatar: mp # gravatar 樣式 https://valine.js.org/#/avatar
-  lang: zh-  # i18n: zh-cn/en
-  placeholder: Just go go # valine 評論輸入佔位符（例如：請留下您的足跡）
-  guest_info: nick,mail,link # valine 評論頭部信息
-  recordIP: true # 是否記錄評論者的 IP 地址
-  highlight: true # 是否高亮代碼塊
-  visitor: false # 是否顯示訪客數量
-
-# https://waline.js.org
-# 版本 2.15.8
 waline:
   enable: true # 修正拼寫錯誤
   serverURL: https://web-eight-weld-65.vercel.app
@@ -277,37 +222,6 @@ waline:
   wordLimit: 0
   pageSize: 10
   pageview: true
-
-# https://twikoo.js.org
-twikoo:
-  enable: false
-  envId: # 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
-  region:
-
-# https://github.com/gitalk/gitalk/blob/master/readme-cn.md
-gitalk:
-  enable: false
-  clientID:
-  clientSecret:
-  repo:
-  owner:
-  admin:
-  md5: false
-
-# https://giscus.app/zh-CN
-giscus:
-  enable: false
-  repo:
-  repoId:
-  category:
-  categoryId:
-  mapping: mapping
-  strict: 0
-  reactionsEnabled: 1
-  emitMetadata: 0
-  inputPosition: bottom
-  # commentTheme: light # 此選項無效，因為主題由主題本身設置
-  lang: zh-TW
 
 ########################################
 # 搜索
