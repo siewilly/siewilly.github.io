@@ -1,25 +1,23 @@
 ---
-title: Friends
+title: friend
 comments: true
 ---
 
 ## About This Site
-<div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-This is just a simple blog.
-</div>
+- 站名： 伊藤蒼太's blog
+- 站長： 伊藤蒼太
+- 網址： https://itousouta15.github.io
 
 ## How to Apply
-<div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
 Leave a comment on this page with the following format:
 ~~~yml
-- name: # Your Name
-  url: # Your URL
-  desc: # Short Description
-  image: # An Image
+- name:
+  url:
+  desc:
+  image:
 ~~~
-</div>
 
-## Friends
+## 夥伴們
 <div class="friend-wrap">
   <div class="friend-item-wrap">
     <a href="https://d-sketon.github.io/" rel="external nofollow noopener noreferrer" target="_blank"></a>
@@ -30,7 +28,7 @@ Leave a comment on this page with the following format:
     </div>
     <div class="friend-info-wrap">
       <div class="friend-name">D-Sketon</div>
-      <div class="friend-desc">A Touhou Enthusiast</div>
+      <div class="friend-desc">一個車萬人</div>
     </div>
   </div>
   <div class="friend-item-wrap">
@@ -42,7 +40,32 @@ Leave a comment on this page with the following format:
     </div>
     <div class="friend-info-wrap">
       <div class="friend-name">Small R</div>
-      <div class="friend-desc">A Full-Stack Developer</div>
+      <div class="friend-desc">全端電佬一個</div>
+    </div>
+  </div>
+  <div class="friend-item-wrap">
+    <a href="https://peppersauce0712.github.io/" rel="external nofollow noopener noreferrer" target="_blank"></a>
+    <div class="friend-icon-wrap">
+      <div class="friend-icon">
+        <img data-src="/img/3.webp" data-sizes="auto" alt="PepperSauce" class="lazyautosizes lazyloaded" sizes="70px" src="/img/3.webp">
+      </div>
+    </div>
+    <div class="friend-info-wrap">
+      <div class="friend-name">PepperSauce</div>
+      <div class="friend-desc">程式路上的小白</div>
+    </div>
+  </div>
+</div>
+<div class="friend-item-wrap">
+    <a href="https://frankk.uk/" rel="external nofollow noopener noreferrer" target="_blank"></a>
+    <div class="friend-icon-wrap">
+      <div class="friend-icon">
+        <img data-src="/img/frank.webp" data-sizes="auto" alt="PepperSauce" class="lazyautosizes lazyloaded" sizes="70px" src="/img/3.webp">
+      </div>
+    </div>
+    <div class="friend-info-wrap">
+      <div class="friend-name">Frank</div>
+      <div class="friend-desc">資安電神</div>
     </div>
   </div>
 </div>
