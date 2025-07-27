@@ -72,8 +72,8 @@ My goal is to create useful, visually appealing, and secure digital experiences.
 
 ## 💬 My Philosophy
 
-> “Every bug is a learning experience. Every project is a story.  
-> The best way to learn is to get your hands dirty, be bold, then refactor.”
+"Every bug is a learning experience. Every project is a story.  
+The best way to learn is to get your hands dirty, be bold, then refactor.”
 
 I believe in knowledge sharing, collaboration, and staying curious.  
 If you have an interesting project, a question, or just want to talk tech—feel free to reach out!
