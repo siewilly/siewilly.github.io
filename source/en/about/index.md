@@ -3,9 +3,6 @@ title: about
 date: 2025-04-03 09:58:09
 ---
 
-# ✨ Itou Souta's Linktree ✨  
-> "When I'm coding, the world quiets down."
-
 <div align="center">
   <img src="/img/avatar.webp" alt="avatar" width="120" style="border-radius:50%;margin-bottom:1em;" />  
   <h1>Itou Souta</h1>  

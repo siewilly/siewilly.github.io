@@ -20,6 +20,7 @@ a img:hover {
   }
 }
 </style>
+<br>
 <div align="center">
   <img src="/img/avatar.webp" alt="avatar" width="120" style="border-radius:50%;margin-bottom:1em;" />
   <h1>伊藤蒼太</h1>
