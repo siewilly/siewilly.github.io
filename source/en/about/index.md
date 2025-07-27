@@ -12,11 +12,15 @@ date: 2025-07-28 09:58:09
   <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:0.5em;">  
     <!-- Social links omitted in translation -->
   </div>  
-</div>  
+</div> 
 
-</br>  
+  <picture>
+    <source srcset="/img/github-user-contributiond.svg" media="(prefers-color-scheme: dark)">
+    <img src="/img/github-user-contribution.svg" alt="GitHub 貢獻圖" style="max-width:100%;margin:1em auto;display:block;" />
+  </picture>
+</div>
 
----
+</br>
 
 <details>  
 <summary>More About Me</summary>  
