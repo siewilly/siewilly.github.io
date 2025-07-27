@@ -46,8 +46,6 @@ This space is where I document my experiments, learning notes, and personal proj
 - 📝 Keep writing and sharing technical notes  
 - 💡 Keep seeking intersections between creativity and technology  
 
----
-
 ## 📚 My Learning Journey
 
 I started coding out of curiosity about how websites and games are made,  
@@ -57,8 +55,6 @@ I enjoy participating in online competitions and CTFs.
 Recently, I’ve been exploring frontend frameworks, static site generators, and experimenting with AI tools.  
 My goal is to create useful, visually appealing, and secure digital experiences.
 
----
-
 ## 🎯 Aspirations
 
 - 🏆 Join more competitive programming contests and CTFs  
@@ -66,8 +62,6 @@ My goal is to create useful, visually appealing, and secure digital experiences.
 - 🌍 Launch a trilingual tech blog and share tutorials  
 - 🛡️ Develop and contribute to open-source cybersecurity tools  
 - 🤝 Collaborate and learn from other developers  
-
----
 
 ## 💬 My Philosophy
 
@@ -78,7 +72,3 @@ I believe in knowledge sharing, collaboration, and staying curious.
 If you have an interesting project, a question, or just want to talk tech—feel free to reach out!
 
 </details>
-
----
-
-If you’d like help localizing it further or refining the tone for an international audience (like using American vs British English, or tailoring it for GitHub or a portfolio site), just let me know! 😊
