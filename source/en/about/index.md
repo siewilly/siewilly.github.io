@@ -13,7 +13,23 @@ date: 2025-07-28 09:58:09
     <!-- Social links omitted in translation -->
   </div>  
 </div> 
-
+  <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:0.5em;">
+    <a href="https://x.com/itou_souta15" target="_blank">
+      <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+    </a>
+    <a href="https://github.com/itou-souta" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <a href="https://www.threads.net/@itou.souta15" target="_blank">
+      <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads" />
+    </a>
+    <a href="https://discord.gg/uAX6h9VmA4" target="_blank">
+      <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    </a>
+    <a href="https://instagram.com/itousouta15" target="_blank">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+  </div>
   <picture>
     <source srcset="/img/github-user-contributiond.svg" media="(prefers-color-scheme: dark)">
     <img src="/img/github-user-contribution.svg" alt="GitHub 貢獻圖" style="max-width:100%;margin:1em auto;display:block;" />
