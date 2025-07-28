@@ -19,8 +19,7 @@ a img:hover {
   }
 }
 </style>
-</br>  
-
+<br>  
 <div align="center">
   <img src="/img/avatar.webp" alt="avatar" width="120" style="border-radius:50%;margin-bottom:1em;" />  
   <h1>Itou Souta</h1>  
@@ -52,59 +51,53 @@ a img:hover {
   </picture>
 </div>
 
-</br>
+<br>
 
-<details>  
-<summary>More About Me</summary>  
+<details>
+<summary>More About Me</summary>
 
 # `cout << "hello! world\n";` ✨  
 
-## 👋 Hi, I'm Itou Souta!
+## 👋 Hi, I'm Itou Souta! <span style="font-size:1.2em;">🦊</span>
 
-Welcome to my world!  
-I’m a **high school student from Taiwan** with a passion for **C++**, **web development**, and **cybersecurity**.  
-This space is where I document my experiments, learning notes, and personal projects. I believe that every line of code is a journey to better understand the world and myself.
+Welcome to my little corner of the internet! <span style="font-size:1.2em;">🌏</span>  
+I’m a **high school student from Taiwan** who codes for fun, curiosity, and sometimes for snacks. <span style="font-size:1.1em;">🍪</span>  
+Here you’ll find my experiments, learning notes, and projects—plus the occasional bug (collect them all!).
 
 ## 🌟 About Me
 
 - 🏫 First-year high school student in Taiwan  
 - 🌏 Trilingual: Chinese (native), English, Japanese  
-- 🎮 Enjoy solving algorithm and geometry problems, especially creative or visual ones  
-- 💡 Passionate about exploring the intersection of programming, cybersecurity, and creativity  
-- 📚 Lifelong learner always on the hunt for new challenges and knowledge  
+- 🎮 Loves creative algorithm and geometry puzzles (bonus points if it’s visual!)  
+- 💡 Always chasing the spark between code, cybersecurity, and wild ideas  
+- 📚 Lifelong learner—if it’s new, I want to try it!  
 
 ## 🚀 Current Goals
 
-- 🔥 Improve my C++ skills for both competitive programming and practical projects  
-- 🌐 Build modern responsive websites using HTML, CSS, JavaScript, and Hexo  
-- 🕵️‍♂️ Dive into cybersecurity fundamentals: CTFs, network analysis, white-hat tools  
-- 🤖 Experiment with AI integration and automation  
-- 📝 Keep writing and sharing technical notes  
-- 💡 Keep seeking intersections between creativity and technology  
+- 🔥 Level up my C++ skills (for both contests and real-world wizardry)  
+- 🌐 Build modern, responsive, and sometimes silly websites with HTML, CSS, JS, and Hexo  
+- 🕵️‍♂️ Explore cybersecurity: CTFs, network mysteries, and white-hat gadgets  
+- 🤖 Play with AI and see what magic (or chaos) happens  
+- 📝 Keep sharing tech notes (and maybe a meme or two)  
+- 💡 Find new ways to mix creativity and code  
 
 ## 📚 My Learning Journey
 
-I started coding out of curiosity about how websites and games are made,  
-and gradually fell in love with algorithms, competitive programming, and cybersecurity.  
-I enjoy participating in online competitions and CTFs.
+I started coding because I wanted to know how websites and games worked—then fell down the rabbit hole of algorithms, contests, and cybersecurity.  
+Now I love joining online competitions and CTFs (sometimes for the glory, always for the fun).
 
-Recently, I’ve been exploring frontend frameworks, static site generators, and experimenting with AI tools.  
-My goal is to create useful, visually appealing, and secure digital experiences.
+Lately, I’ve been tinkering with frontend frameworks, static site generators, and AI tools.  
+My dream? To build digital things that are useful, beautiful, and (mostly) bug-free.
 
 ## 🎯 Aspirations
 
-- 🏆 Join more competitive programming contests and CTFs  
-- 📖 Master advanced C++ and design patterns  
-- 🌍 Launch a trilingual tech blog and share tutorials  
-- 🛡️ Develop and contribute to open-source cybersecurity tools  
-- 🤝 Collaborate and learn from other developers  
+- 🏆 Join more programming contests & CTFs (and maybe win a few!)  
+- 📖 Master advanced C++ and design patterns (like a true code ninja)  
+- 🌍 Launch a trilingual tech blog and share cool tutorials  
+- 🛡️ Build and contribute to open-source cybersecurity tools  
+- 🤝 Collaborate, make friends, and learn from awesome devs everywhere  
 
 ## 💬 My Philosophy
-
-"Every bug is a learning experience. Every project is a story.  
-The best way to learn is to get your hands dirty, be bold, then refactor.”
-
-I believe in knowledge sharing, collaboration, and staying curious.  
-If you have an interesting project, a question, or just want to talk tech—feel free to reach out!
-
+"Every bug is a plot twist. Every project is an adventure.  
+The best way to learn? Dive in, break things, laugh, and refactor!"
 </details>

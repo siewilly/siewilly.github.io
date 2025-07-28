@@ -42,8 +42,6 @@ a img:hover {
       <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
     </a>
   </div>
-
-  <!-- GitHub 貢獻圖（亮暗模式自動切換） -->
   <picture>
     <source srcset="/img/github-user-contributiond.svg" media="(prefers-color-scheme: dark)">
     <img src="/img/github-user-contribution.svg" alt="GitHub 貢獻圖" style="max-width:100%;margin:1em auto;display:block;" />
@@ -55,7 +53,7 @@ a img:hover {
 <details>
 <summary>更多關於我</summary>
 
-# cout << "hello! world\n"; ✨
+# `cout << "hello! world\n";` ✨
 
 ## 👋 嗨，我是 Itou Souta！
 
