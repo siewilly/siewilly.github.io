@@ -2,7 +2,23 @@
 title: about
 date: 2025-07-28 09:58:09
 ---
-
+<style>
+a[target="_blank"]::after,
+a.external-link::after {
+  display: none !important;
+  content: none !important;
+}
+a img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+@media (max-width: 480px) {
+  div[style*="display:flex"] {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>
 </br>  
 
 <div align="center">
