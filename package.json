@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-  "build": "hexo generate",
-  "clean": "hexo clean",
-  "deploy": "hexo deploy",
-  "server": "hexo server",
-  "purgecss": "postcss public/css/style.css -o public/css/style.purged.css",
-  "build:purge": "npm run clean && npm run build && npm run purgecss"
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server",
+    "purgecss": "postcss public/css/style.css -o public/css/style.purged.css",
+    "build:purge": "npm run clean && npm run build && npm run purgecss"
   },
   "hexo": {
     "version": "7.3.0"
@@ -24,7 +24,6 @@
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^7.0.1",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",

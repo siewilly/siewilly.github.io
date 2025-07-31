@@ -154,7 +154,7 @@ markdown:
 math:
   enable: true 
   katex:
-    enable: true
+    enable: false
     autoRender: true 
   mathjax:
     enable: true
