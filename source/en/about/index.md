@@ -19,7 +19,7 @@ a img:hover {
   }
 }
 </style>
-<br>  
+<br>
 <div align="center">
   <img src="/img/avatar.webp" alt="avatar" width="120" style="border-radius:50%;margin-bottom:1em;" />  
   <h1>Itou Souta</h1>  
@@ -27,7 +27,6 @@ a img:hover {
   <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:0.5em;">  
     <!-- Social links omitted in translation -->
   </div>  
-</div> 
   <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:0.5em;">
     <a href="https://x.com/itou_souta15" target="_blank">
       <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
