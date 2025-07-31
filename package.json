@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+  "build": "hexo generate",
+  "clean": "hexo clean",
+  "deploy": "hexo deploy",
+  "server": "hexo server",
+  "purgecss": "postcss public/css/style.css -o public/css/style.purged.css",
+  "build:purge": "npm run clean && npm run build && npm run purgecss"
   },
   "hexo": {
     "version": "7.3.0"
@@ -29,5 +31,9 @@
     "hexo-tag-embed": "^1.0.0",
     "hexo-theme-reimu": "^1.8.5",
     "lodash.clonedeep": "^4.5.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "postcss-cli": "^11.0.1"
   }
 }
