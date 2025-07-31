@@ -182,7 +182,7 @@ body [data-aos='zoom-in'] {
   background-repeat: repeat-x;
   border: none;
   filter: drop-shadow(0px 0px 2px var(--red-1));
-  transition: opacity 0.3s, color 0.3s;
+  transition: opacity 0.3s;
 }
 .article-entry hr:hover {
   opacity: 0.5;
@@ -525,7 +525,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-size-adjust: 100%;
   font-family: 'Mulish','Noto Serif SC', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif';
-  transition: background 1s;
+
 }
 body ::selection {
   background: var(--red-1);
@@ -658,7 +658,7 @@ a {
   justify-content: center;
   background: var(--color-header-background);
   box-shadow: 0 0 10px 3px var(--color-hover-shadow);
-  transition: background 1s, top 0.3s;
+  transition: top 0.3s;
   z-index: 200;
 }
 #header-nav:hover {
@@ -802,7 +802,7 @@ a {
   align-items: center;
   font-size: 24px;
   font-weight: 400;
-  transition: transform 0.3s, color 0.3s;
+  transition: transform 0.3s;
   will-change: transform;
 }
 .main-nav-icon.rotate {
@@ -812,7 +812,7 @@ a {
   font-size: 24px;
   font-weight: 400;
   transform: rotate(90deg);
-  transition: transform 0.3s, color 0.3s;
+  transition: transform 0.3s;
   will-change: transform;
 }
 #main-nav-toggle {
@@ -888,7 +888,7 @@ a {
   background-size: 50px 4px;
   background-repeat: repeat-x;
   filter: drop-shadow(0px 0px 2px var(--red-1));
-  transition: opacity 0.3s, color 0.3s;
+  transition: opacity 0.3s;
 }
 .hr-line:hover {
   opacity: 0.5;
@@ -1010,7 +1010,7 @@ a {
   margin-bottom: 1.2em;
 }
 .article-entry li:hover::marker {
-  transition: color 0.2s;
+
   color: var(--red-1);
 }
 .article-entry img {
@@ -1474,7 +1474,7 @@ a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  transition: color 0.3s;
+
 }
 .post-sticky {
   position: absolute;
@@ -2170,7 +2170,7 @@ pre .javascript .function {
   margin: 1%;
   transition: 0.3s;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 .friend-item-wrap:hover {
   transform: scale(1.05);
@@ -2517,7 +2517,7 @@ pre .javascript .function {
   padding: 25px 0;
   color: var(--red-0);
   opacity: 0.8;
-  transition: opacity 0.5s, color;
+  transition: opacity 0.5s;
 }
 .sidebar-state {
   transition: all 0.5s;
@@ -2577,7 +2577,7 @@ pre .javascript .function {
   color: var(--color-link);
   opacity: 0.8;
   text-decoration: none;
-  transition: opacity 0.2s, color 0.2s;
+  transition: opacity 0.2s;
   display: block;
   padding: 10px 15px;
   font-weight: 700;
@@ -2594,7 +2594,7 @@ pre .javascript .function {
   margin: 8px auto;
   justify-content: center;
   border: 10px var(--color-red-3-shadow) double;
-  transition: border 0.5s, background 0.5s, color 0.5s;
+
 }
 .sidebar-menu-link-wrap:hover {
   border: 10px var(--color-h2-after) double;
@@ -2611,7 +2611,7 @@ pre .javascript .function {
 .sidebar-menu-icon {
   font-size: 24px;
   font-weight: 400;
-  transition: transform 0.3s, background 0.5s, color 0.5s;
+  transition: transform 0.3s;
   will-change: transform;
   pointer-events: none;
   padding: 5px;
