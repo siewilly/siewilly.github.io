@@ -1,187 +1,72 @@
+# itousouta15.github.io
 ## [網站連結](https://itousouta15.github.io)
-## Language | 言語
 
-- [English](#english)
-- [日本語](#Japanese)
+一個再普通不過的部落格🛐
 
-<a name="english"></a>
+## 內容簡介
 
-# English 🇬🇧🇺🇲
+歡迎來到我的個人部落格！這裡紀錄並分享：
 
-## About this Blog
+- ⚔️ 資安學習筆記與心得
+- 💻 程式開發（C++、前端等）經驗
+- 🏫 學生生活與自學歷程
+- 👾 各式專案與技術實作紀錄
 
-This is my personal blog where I share:
+希望透過這個部落格，整理知識、累積寫作與開發實力，也歡迎有興趣的你一起加入創作！
 
-⚔️ Notes on cybersecurity
+## 技術棧
 
-💻 Programming (C++, frontend, etc.)
+- [Hexo](https://hexo.io/zh-tw/) 靜態網站產生器
+- [hexo-theme-reimu](https://github.com/D-Sketon/reimu-template) 主題（高度自訂）
+- [GitHub Pages](https://pages.github.com/) 免費主機
+- Node.js 與 npm
 
-🏫 Student life and learning journey
+## 特色
 
-👾 Side projects and hands-on experiments
+- 支援 LaTeX、Mermaid 流程圖
+- RSS 訂閱、Git 部署、自動化 PWA 支援
+- 自訂字型與游標風格
+- 多欄首頁佈局，極簡日系設計感
+- 最小化 sidebar 元素、精緻作者資訊
+- 原生多語言支援(持續優化中)
 
+## 本地啟動
 
-This blog helps me organize knowledge and grow my skills in development and writing.
-
-## Tech Stack
-
-- Hexo (static site generator)
-
-- hexo-theme-reimu (customizable theme)
-
-- GitHub Pages (free hosting)
-
-- Node.js & npm
-
-
-## Features
-
-LaTeX & Mermaid support 📈
-
-RSS feed, Git deploy, PWA support 📠
-
-Custom fonts and cursor 🌐
-
-Clean, Japanese-style minimalist design 🎆
-
-
-## Run Locally
-```
+```sh
 npm install -g hexo-cli
-git clone https://github.com/D-Sketon/reimu-template
-cd reimu-template
+git clone https://github.com/itousouta15/itousouta15.github.io
+cd itousouta15.github.io
 npm install
 hexo server
 ```
-Custom Settings
 
-Customizations include:
+## 部署方法
 
-- Font & cursor replacement
-
-- Multi-column layout
-
-- Minimal sidebar elements
-
-- Custom footer & author block
-
-
-## Deployment
-```
+```sh
 hexo clean
 hexo generate
 hexo deploy
 ```
-- Deploy settings are located in _config.yml.
 
-## Categories
+- 部署設定請見 `_config.yml`。
 
-Tech Notes｜Cybersecurity｜Projects｜Learning Records
+## 自訂 & 客製化
 
+- 字型、游標微調
+- 首頁多欄位設計
+- Sidebar 精簡與個人化 footer
+- 作者專屬區塊
 
-## About Me
+## 文章分類
 
-[Read my self-introduction](https://itousouta15.github.io/zh-TW/about/)
+技術筆記｜資安｜專案｜學習紀錄
 
-## Want to Contribute?
+## 如何貢獻
 
-Feel free to join as a co-writer! Open an issue or reach out if you're into blogging, dev, or cybersecurity.
+歡迎一起共筆！  
+如果你對技術寫作、Hexo、資安有興趣，歡迎發起 Issue 或於 About 頁面聯繫我！
 
-## License
+## 授權
 
-Theme: MIT license.
-All blog posts and images are original. Please do not repost without permission.
-
-
----
-
-<a name="japanese"></a>
-
-# 日本語 🇯🇵
-
-## このブログについて
-
-このブログは、私の学習記録・技術共有のための個人ブログです。
-
-⚔️ セキュリティ関連のメモと感想
-
-💻 C++やWebフロントエンドの技術記録
-
-🏫 学生生活と学びの記録
-
-👾 サイドプロジェクトや実験記録
-
-
-知識を整理し、開発や文章力を伸ばすために活用しています。
-
-## 使用技術
-
-- Hexo（静的サイトジェネレーター）
-
-- hexo-theme-reimu（カスタマイズ可能なテーマ）
-
-- GitHub Pages（無料ホスティング）
-
-- Node.js & npm
-
-
-## 特徴
-
-LaTeX や Mermaid の対応 📈
-
-RSS、Gitデプロイ、多言語対応（作業中）🌐
-
-日本風のシンプルなデザイン 🎆
-
-フォントやカーソルのカスタム 📊
-
-
-## ローカル起動
-```
-npm install -g hexo-cli
-git clone https://github.com/D-Sketon/reimu-template
-cd reimu-template
-npm install
-hexo server
-```
-## カスタマイズ内容
-
-- フォント＆カーソル変更
-
-- 複数カラムのトップページ
-
-- sidebar の簡素化
-
-- フッターと著者情報のカスタム
-
-
-## デプロイ方法
-```
-hexo clean
-hexo generate
-hexo deploy
-```
-- _config.yml に deploy の設定が必要です。
-
-## 記事カテゴリ
-
-技術ノート｜セキュリティ｜プロジェクト｜学習記録
-
-
-## 自己紹介
-
-[自己紹介ページはこちら](https://itousouta15.github.io/zh-TW/about/)
-
-## 共著者募集中
-
-Hexo、文章、セキュリティなどに興味ある方、一緒にブログ書きませんか？
-GitHub Issue または About ページから連絡してください！
-
-## ライセンス
-
-テーマは MIT ライセンスです。
-すべての投稿・画像はオリジナルです。無断転載禁止。
-
-
----
-
+- 主題：MIT License
+- 所有文章與圖片皆為原創，請勿未經允許轉載
