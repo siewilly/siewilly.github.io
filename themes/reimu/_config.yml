@@ -818,3 +818,23 @@ vendor:
     aplayer:
       src: webcache|aplayer@1.10.1/dist/APlayer.min.css
       integrity: sha384-tLMkTWh2pfXNWGFlUS0w1TFtRG5xZ9lPWFOooj+vDDLIL+xBGQU/voDBY5XE2lVh
+
+# Performance Optimization
+performance:
+  enable: true
+  # 關鍵資源預載入
+  preload_critical: true
+  # DNS 預解析
+  dns_prefetch: true
+  # 預連接
+  preconnect: true
+  # 內聯關鍵 CSS
+  inline_critical_css: false
+  # 延遲載入非關鍵資源
+  defer_non_critical: true
+  # 資源提示域名
+  resource_hints_domains:
+    - //cdn.jsdelivr.net
+    - //fastly.jsdelivr.net
+    - //unpkg.com
+    - //npm.webcache.cn

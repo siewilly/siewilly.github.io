@@ -2,6 +2,13 @@
   <% if (theme.injector.head_begin) { %>
     <%- render(theme.injector.head_begin, 'html'); %>
   <% } %>
+  <%# 資源提示優化 %>
+  <% if (theme.performance?.enable && theme.performance?.dns_prefetch) { %>
+    <%- dnsPrefetch(theme.performance.resource_hints_domains) %>
+  <% } %>
+  <% if (theme.performance?.enable && theme.performance?.preconnect) { %>
+    <%- preconnect(theme.performance.resource_hints_domains) %>
+  <% } %>
   <meta charset="utf-8">
   <%- partial('analytics/google-analytics', null, { cache: true }) %>
   <%- partial('analytics/clarity', null, { cache: true }) %>
@@ -35,7 +42,12 @@
     <%- vendorGoogleFont() %>
   <% } %>
   <% if (!theme.icon_font) { %>
-    <%- css(theme.vendor.css.fontawesome.high_priority.map(i => ({href: vendorCdn(i)[0], integrity: vendorCdnIntegrity(i)[0], crossorigin: "anonymous"}))) %>
+    <%# 優化 FontAwesome 載入 - 使用簡化的載入策略 %>
+    <link rel="preload" href="<%- vendorCdn(theme.vendor.css.fontawesome.high_priority[0])[0] %>" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="<%- vendorCdn(theme.vendor.css.fontawesome.high_priority[1])[0] %>" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <%- css(theme.vendor.css.fontawesome.high_priority.map(i => ({href: vendorCdn(i)[0], integrity: vendorCdnIntegrity(i)[0], crossorigin: "anonymous"}))) %>
+    </noscript>
     <%- asyncCss(theme.vendor.css.fontawesome.low_priority.map(i => ({href: vendorCdn(i)[0], integrity: vendorCdnIntegrity(i)[0], crossorigin: "anonymous"}))) %>
   <% } else { %>
     <link rel="preload" href="//at.alicdn.com/t/c/font_<%- theme.icon_font %>.woff2" as="font" type="font/woff2" crossorigin="anonymous">
@@ -56,6 +68,8 @@
   <% } %>
   <%- css('css/style') %>
   <%- asyncCss({href: vendorCdn(theme.vendor.css.photoswipe)[0], integrity: vendorCdnIntegrity(theme.vendor.css.photoswipe)[0], crossorigin: "anonymous"}) %>
+  <%# 效能優化器 %>
+  <script src="<%- url_for('js/simple-performance.js') %>" defer></script>
   <% if (theme.math.enable) { %>
     <% if (theme.math.katex.enable) { %>
       <% if (is_post() || is_page()) { %>
