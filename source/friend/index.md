@@ -108,9 +108,10 @@ comments: true
       <a href="https://yochan06.github.io/" rel="external nofollow noopener noreferrer" target="_blank"></a>
       <div class="friend-icon-wrap">
         <div class="friend-icon">
-          <img data-src="https://yochan06.github.io/images/132590659.png" data-sizes="auto" alt="yochan06" class="lazyautosizes lazyloaded" sizes="70px" src="/img/frank.webp">
+          <img data-src="https://yochan06.github.io/images/132590659.png" data-sizes="auto" alt="yochan06" class="lazyautosizes lazyloaded" sizes="70px" src="https://yochan06.github.io/images/132590659.png">
         </div>
-      </div>https://yochan06.github.io/images/132590659.png
+      </div>
+      <div class="friend-info-wrap">
         <div class="friend-name">yochan06</div>
         <div class="friend-desc">AIS3隊友 | 資安小電神</div>
       </div>
