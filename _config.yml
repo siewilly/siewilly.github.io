@@ -90,6 +90,33 @@ theme: reimu
 deploy:
   type: ''
 
+# Clean CSS 配置
+## 使用 hexo-clean-css 壓縮 CSS 文件
+clean_css:
+  exclude: 
+    - '*.min.css'
+
+# All Minifier 配置
+## 使用 hexo-all-minifier 全面優化 HTML、CSS、JS 和圖片
+all_minifier:
+  enable: true
+  # HTML 壓縮選項
+  html:
+    enable: true
+    exclude: []
+  # CSS 壓縮選項  
+  css:
+    enable: true
+    exclude: ['*.min.css']
+  # JS 壓縮選項
+  js:
+    enable: true
+    exclude: ['*.min.js']
+  # 圖片壓縮選項
+  image:
+    enable: true
+    exclude: []
+
 # 主題配置
 theme_config:
   # 動態主題色
