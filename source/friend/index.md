@@ -81,7 +81,7 @@ comments: true
       </div>
     </div>
       <div class="friend-item-wrap">
-      <a href="https://nangong5421.github.io/" rel="external nofollow noopener noreferrer" target="_blank"></a>
+      <a href="https://blog.chummydns.com" rel="external nofollow noopener noreferrer" target="_blank"></a>
       <div class="friend-icon-wrap">
         <div class="friend-icon">
           <img data-src="https://blog.chummydns.com/images/me.png" data-sizes="auto" alt="Chumy" class="lazyautosizes lazyloaded" sizes="70px" src="https://blog.chummydns.com/images/me.png">
