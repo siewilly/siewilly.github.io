@@ -56,18 +56,6 @@ comments: true
       <div class="friend-desc">程式路上的小白</div>
     </div>
   </div>
-  <div class="friend-item-wrap">
-      <a href="https://frankk.uk/" rel="external nofollow noopener noreferrer" target="_blank"></a>
-      <div class="friend-icon-wrap">
-        <div class="friend-icon">
-          <img data-src="/img/frank.webp" data-sizes="auto" alt="Frank" class="lazyautosizes lazyloaded" sizes="70px" src="/img/frank.webp">
-        </div>
-      </div>
-      <div class="friend-info-wrap">
-        <div class="friend-name">Frank</div>
-        <div class="friend-desc">資安電佬一個</div>
-      </div>
-    </div>
     <div class="friend-item-wrap">
       <a href="https://yuzen9622.github.io/" rel="external nofollow noopener noreferrer" target="_blank"></a>
       <div class="friend-icon-wrap">
@@ -96,12 +84,24 @@ comments: true
       <a href="https://nangong5421.github.io/" rel="external nofollow noopener noreferrer" target="_blank"></a>
       <div class="friend-icon-wrap">
         <div class="friend-icon">
-          <img data-src="/img/南宮.webp" data-sizes="auto" alt="南宮柳信" class="lazyautosizes lazyloaded" sizes="70px" src="/img/南宮.webp">
+          <img data-src="https://blog.chummydns.com/images/me.png" data-sizes="auto" alt="Chumy" class="lazyautosizes lazyloaded" sizes="70px" src="https://blog.chummydns.com/images/me.png">
         </div>
       </div>
       <div class="friend-info-wrap">
-        <div class="friend-name">南宮柳信</div>
-        <div class="friend-desc">電到我抬不起頭</div>
+        <div class="friend-name">Chumy</div>
+        <div class="friend-desc">AIS3隊友 | 資安大電神</div>
+     </div>
+    </div>
+      <div class="friend-item-wrap">
+      <a href="https://frankk.uk/" rel="external nofollow noopener noreferrer" target="_blank"></a>
+      <div class="friend-icon-wrap">
+        <div class="friend-icon">
+          <img data-src="/img/frank.webp" data-sizes="auto" alt="Frank" class="lazyautosizes lazyloaded" sizes="70px" src="/img/frank.webp">
+        </div>
+      </div>
+      <div class="friend-info-wrap">
+        <div class="friend-name">Frank</div>
+        <div class="friend-desc">AIS3隊友 | 資安大電神</div>
       </div>
     </div>
   </div>
