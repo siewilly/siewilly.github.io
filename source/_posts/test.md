@@ -1,7 +1,7 @@
 ---
-title: test
+title: 第一次建網站的心路歷程
 date: 2025-08-03 16:32:32
 tags: test
-cover: /img/ais3 2025/2025 AIS3.webp
+cover: /img/hexo_web_ex/hexo_web.webp
 urname: test
 ---
