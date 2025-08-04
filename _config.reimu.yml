@@ -308,7 +308,7 @@ firework:
       - shape: circle
         move: ["emit"]
         easing: easeOutExpo
-        colors: ["#ADD8E6", "#B0E0E6", "#87CEEB", "#E0FFFF"] # 更淡的藍色漸變效果
+        colors: ['#FBC2EB', '#A6C1EE', '#FDCDE5', '#D4FC79'] # 更淡的藍色漸變效果
         number: 20
         duration: [1200, 1800]
         shapeOptions:
