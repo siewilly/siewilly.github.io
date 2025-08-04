@@ -22,7 +22,7 @@ urname: test
 
 # 實際操作跟心得
 ## 我發現一個好用的編程工具:Visual Studio Code
-在使用VsCode之前，我都還在用python Idle寫程式(~~我聽幫住我建網站的人說我用終端機直接寫程式很勇(?~~)，這也讓我意識到我平常看到的程式並不是Window裡面最好的方式~~~我菜~~~
+在使用VsCode之前，我都還在用python Idle寫程式(~~我聽幫住我建網站的人說我用終端機直接寫程式很勇(?~~)，這也讓我意識到我平常看到的程式並不是Window裡面最好的方式~~我菜~~
 ## github原來不是網頁上傳，是要經過指令上傳的!!!
 我在學的時候學到了最基本的` git add .`and` git commit -m ""`and`git push origin main`，這些都是把程式上傳github的方式
 ## 英文好用
