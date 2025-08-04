@@ -639,51 +639,52 @@ material_theme:
 
 internal_theme:
   light:
-    --red-0: "#ff0000"
-    --red-1: "#ff5252"
-    --red-2: "#ff7c7c"
-    --red-3: "#ffafaf"
-    --red-4: "#ffd0d0"
-    --red-5: "#ffecec"
-    --red-5-5: "#fff3f3"
-    --red-6: "#fff7f7"
-    --color-red-6-shadow: "rgba(255, 78, 78, 0.6)"
-    --color-red-3-shadow: "rgba(255, 78, 78, 0.3)"
+    --red-0: "#7f1d1d"        # 深酒紅
+    --red-1: "#b91c1c"        # 暗紅
+    --red-2: "#dc2626"        # 標準紅
+    --red-3: "#ef4444"        # 較亮紅
+    --red-4: "#f87171"        # 粉紅紅
+    --red-5: "#fca5a5"        # 淺粉紅
+    --red-5-5: "#fecaca"      # 非常淺的紅
+    --red-6: "#ffe4e6"        # 最淡的紅
+    --color-red-6-shadow: "rgba(220,38,38,0.6)"
+    --color-red-3-shadow: "rgba(239,68,68,0.3)"
 
-    --highlight-nav: "#e6e6e6"
-    --highlight-scrollbar: "#d6d6d6"
-    --highlight-background: "#f7f7f7"
-    --highlight-current-line: "#dadada"
-    --highlight-selection: "#e9e9e9"
-    --highlight-foreground: "#4d4d4d"
-    --highlight-comment: "#7d7d7d"
-    --highlight-red: "#c8362b"
-    --highlight-orange: "#b66014"
-    --highlight-yellow: "#cb911d"
-    --highlight-green: "#2ea52e"
-    --highlight-aqua: "#479d9d"
-    --highlight-blue: "#1973b8"
-    --highlight-purple: "#7135ac"
+    --highlight-nav: "#fee2e2"
+    --highlight-scrollbar: "#fecaca"
+    --highlight-background: "#fff1f2"
+    --highlight-current-line: "#ffe4e6"
+    --highlight-selection: "#fcdada"
+    --highlight-foreground: "#7f1d1d"
+    --highlight-comment: "#9f1239"
+    --highlight-red: "#dc2626"
+    --highlight-orange: "#f97316"
+    --highlight-yellow: "#facc15"
+    --highlight-green: "#16a34a"
+    --highlight-aqua: "#14b8a6"
+    --highlight-blue: "#3b82f6"
+    --highlight-purple: "#9333ea"
   dark:
-    --red-4: "rgba(255, 208, 208, 0.5)"
-    --red-5: "rgba(255,228,228,0.15)"
-    --red-5-5: "rgba(255,236,236,0.05)"
-    --red-6: "rgba(255, 243, 243, 0.2)"
+    --red-4: 'rgba(255, 208, 208, 0.5)'
+    --red-5: 'rgba(255,228,228,0.15)'
+    --red-5-5: 'rgba(255,236,236,0.05)'
+    --red-6: 'rgba(255, 243, 243, 0.2)'
 
-    --highlight-nav: "#2e353f"
-    --highlight-scrollbar: "#454d59"
-    --highlight-background: "#22272e"
-    --highlight-current-line: "#393939"
-    --highlight-selection: "#515151"
-    --highlight-foreground: "#cccccc"
-    --highlight-comment: "#999999"
-    --highlight-red: "#f47067"
-    --highlight-orange: "#f69d50"
-    --highlight-yellow: "#ffcc66"
-    --highlight-green: "#99cc99"
-    --highlight-aqua: "#66cccc"
-    --highlight-blue: "#54b6ff"
-    --highlight-purple: "#dcbdfb"
+    --highlight-nav: "#3f2d2d"
+    --highlight-scrollbar: "#5a3d3d"
+    --highlight-background: "#1f1a1a"
+    --highlight-current-line: "#3d2e2e"
+    --highlight-selection: "#5b3838"
+    --highlight-foreground: "#ffe4e6"
+    --highlight-comment: "#eab0b0"
+    --highlight-red: "#f87171"
+    --highlight-orange: "#fb923c"
+    --highlight-yellow: "#fde047"
+    --highlight-green: "#4ade80"
+    --highlight-aqua: "#2dd4bf"
+    --highlight-blue: "#60a5fa"
+    --highlight-purple: "#c084fc"
+
 
 ########################################
 # Vendor

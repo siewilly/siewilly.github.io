@@ -121,7 +121,7 @@ all_minifier:
 theme_config:
   # 動態主題色
   material_theme:
-    enable: true
+    enable: false
 
   # 自定義字體
   font:
