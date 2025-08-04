@@ -33,3 +33,17 @@ comments: true
     </div>
   </div>
 </div>
+<div class="friend-wrap">
+  <div class="friend-item-wrap">
+    <a href="https://d-sketon.github.io/" rel="external nofollow noopener noreferrer" target="_blank"></a>
+    <div class="friend-icon-wrap">
+      <div class="friend-icon">
+        <img data-src="https://d-sketon.github.io/avatar/avatar.webp" data-sizes="auto" alt="D-Sketon" class="lazyautosizes lazyloaded" sizes="70px" src="https://d-sketon.github.io/avatar/avatar.webp">
+      </div>
+    </div>
+    <div class="friend-info-wrap">
+      <div class="friend-name">D-Sketon</div>
+      <div class="friend-desc">一個車萬人</div>
+    </div>
+  </div>
+</div>
