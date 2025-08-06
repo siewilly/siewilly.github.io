@@ -126,6 +126,7 @@ for _ in range(n):
 ```
 ---
 ## a006 一元二次程式
+題目來源[a006](https://zerojudge.tw/ShowProblem?problemid=a006)
 #### easy😎
 ### 解題
 我們不要想太困難的東西，直接套公式`(-b±√b^2-4ac)/(2a)`，還有分辨是否有實數解，還是一個姐還是兩個解
@@ -163,6 +164,7 @@ else:#有實數解且不重根
 ---
 ## e289 美麗的彩帶(apcs第三題)
 #### hard :rotating_light:
+題目來源[e289](https://zerojudge.tw/ShowProblem?problemid=e289)
 ### 解題
 這是apcs第三題的題目，代表說這題要==演算法==，這我使用滑窗(我可以用len去查list的長度判斷這個窗口裡面是否為彩色彩帶)搭配二分搜的演算法，可以大大降低使用時間，`import bisect`可以使用在二搜上的python函式，主要使用`bisect.bisect_left(data,n)`(尋找n在data序列裡面可以插入的位置(data一定要是==嚴格遞增==))，我分解成三個來講:
 - 輸入法&叫出函式庫:
