@@ -161,6 +161,84 @@ else:#有實數解且不重根
   print(f"Two different roots x1={S1} , x2={S2}")
 ```
 ---
+## e289 美麗的彩帶(apcs第三題)
+#### hard :rotating_light:
+### 解題
+這是apcs第三題的題目，代表說這題要==演算法==，這我使用滑窗(我可以用len去查list的長度判斷這個窗口裡面是否為彩色彩帶)搭配二分搜的演算法，可以大大降低使用時間，`import bisect`可以使用在二搜上的python函式，主要使用`bisect.bisect_left(data,n)`(尋找n在data序列裡面可以插入的位置(data一定要是==嚴格遞增==))，我分解成三個來講:
+- 輸入法&叫出函式庫:
+```python
+from sys import stdin
+import bisect
+n,m=map(int,stdin.readline().strip().split())
+data=list(map(int,stdin.readline().strip().split()))
+```
+- 製作第一個滑窗(window)
+```python
+def make_first_window(data):
+  value=[]
+  for i in range(n):
+    idx=bisect.bisect_left(value,[data[i]])
+    if idx==len(value) or value[idx][0]!=data[i]: value.insert(idx,[data[i],1])
+    else: value[idx][1]+=1
+  return value
+```
+- 製作下一個窗口的判斷式:
+```python
+def make_window(L,R,window,data):
+  idx=bisect.bisect_left(window,[data[L-1]])
+  window[idx][1]-=1
+  if window[idx][0]==0: window.pop(idx)
+  idx=bisect.bisect_left(window,[data[R]])
+  if len(window)==idx or window[idx][0]!=data[R]: window.insert(idx,[data[R],1])
+  else: window[idx][1]+=1
+  return window
+```
+- 主程式:
+```python
+window=make_first_window(data)
+total=0
+if len(window)==n: total+=1
+L,R=0,n-1
+for _ in range(m-n):
+  L+=1
+  R+=1
+  window=make_window(L,R,window,data)
+  if len(window)==n: total+=1
+print(total)
+```
+合起來就是:
+```python
+from sys import stdin
+import bisect
+def make_first_window(data):
+    value=[]
+    for i in range(n):
+        idx=bisect.bisect_left(value,[data[i]])
+        if idx==len(value) or value[idx][0]!=data[i]: value.insert(idx,[data[i],1])
+        else: value[idx][1]+=1
+    return value
+def make_window(L,R,window,data):
+    idx=bisect.bisect_left(window,[data[L-1]])
+    window[idx][1]-=1
+    if window[idx][1]==0: window.pop(idx)
+    idx=bisect.bisect_left(window,[data[R]])
+    if len(window)==idx or window[idx][0]!=data[R]: window.insert(idx,[data[R],1])
+    else: window[idx][1]+=1
+    return window
+n,m=map(int,stdin.readline().strip().split())
+data=list(map(int,stdin.readline().strip().split()))
+window=make_first_window(data)
+total=0
+if len(window)==n: total+=1
+L,R=0,n-1
+for _ in range(m-n):
+    L+=1
+    R+=1
+    window=make_window(L,R,window,data)
+    if len(window)==n: total+=1
+print(total)
+```
+---
 # 其他
 ## stdin輸入法
 我這裡要教stdin輸入法，請大家先把`from sys import stdin`背起來，很重要，請第一行程式就打這個
