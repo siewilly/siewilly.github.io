@@ -32,13 +32,13 @@ a img:hover {
     <a href="https://github.com/siewilly" target="_blank">
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
-    <a href="https://www.threads.com/@nhubc20_siewilly" target="_blank">
+    <a href="https://www.threads.com/@siewilly_coding" target="_blank">
       <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads" />
     </a>
     <a href="https://discord.gg/WD6gVTRQWA" target="_blank">
       <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
     </a>
-    <a href="https://www.instagram.com/nhubc20_siewilly/" target="_blank">
+    <a href="https://www.instagram.com/siewilly_coding/" target="_blank">
       <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
     </a>
   </div>
