@@ -241,6 +241,125 @@ for _ in range(m-n):
 print(total)
 ```
 ---
+## f313 人口遷移(apcs第二題)
+#### medium 🤏
+題目來源[f313](https://zerojudge.tw/ShowProblem?problemid=f313)
+### 解題
+題目說一個2Dlist，不為-1的元素`data[i][j]`每天都要往上下左右不為-1的程式遷移`data[i][j]//k`個人，我們首先要想一個問題，如果我的`data[i][j]`往旁邊看時超出list該怎麼辦，有兩種可能，略過或把城市包起來(用-1，因為-1不會計入運算)，我這邊選擇後者(前者判斷是太多)，我分成幾部分來講:
+- 輸入方法:
+```python
+from sys import stdin
+R,C,k,m=map(int,stdin.readline().strip().split())
+for z in range(R):
+    stop=list(map(int,stdin.readline().strip().split()))
+    stop.insert(0,-1)
+    stop.append(-1)
+    data.append(stop)
+list1=[-1 for _ in range(C+2)]
+data.append(list1)
+'''
+except input:
+2 3 4 1
+10 2 -1
+5 -1 2
+
+data=[[-1,-1,-1,-1,-1],[-1,10,2,-1,-1],[-1,5,-1,2,-1],[-1,-1,-1,-1,-1]]
+'''
+```
+- 每晚城市移動的程式;
+```python
+def move(data):
+    plus=[[0 for _ in range(C+2)] for _ in range(R+2)]
+    #從這裡開始去看每個友人的程式的附近是否有人，如果有人，就從那個有人的城市拿人過來(plus[i][j]+=data[城市位置的i][城市位置的j]//k)，有人的程式少人(plus[城市位置的i][城市位置的j]-=城市的位置//k)
+    for i in range(1,len(data)-1):
+        for j in range(1,len(data[i])-1):
+            if data[i][j]!=-1:
+                if data[i-1][j]!=-1:
+                    plus[i][j]+=(data[i-1][j]//k)
+                    plus[i-1][j]-=(data[i-1][j]//k)
+                if data[i+1][j]!=-1:
+                    plus[i][j]+=(data[i+1][j]//k)
+                    plus[i+1][j]-=(data[i+1][j]//k)
+                if data[i][j-1]!=-1:
+                    plus[i][j]+=(data[i][j-1]//k)
+                    plus[i][j-1]-=(data[i][j-1]//k)
+                if data[i][j+1]!=-1:
+                    plus[i][j]+=(data[i][j+1]//k)
+                    plus[i][j+1]-=(data[i][j+1]//k)
+    #把plus裡面城市人數的變化加到data
+    for i in range(1,len(data)-1):
+        for j in range(1,len(data[i])-1):
+                data[i][j]+=plus[i][j]
+    return data
+```
+- 主程式:
+```python
+for _ in range(m): data=move(data)
+
+last_min=float('inf')
+last_max=float('-inf')
+#遍歷所有的城市，尋找最多人跟最少人的城市
+for i in range(1,len(data)-1):
+    for j in range(1,len(data[i])-1):
+        if data[i][j]!=-1:
+            last_min=min(last_min,data[i][j])
+            last_max=max(last_max,data[i][j])
+            
+print(last_min)
+print(last_max)
+```
+合起來就是:
+```python
+from sys import stdin
+def move(data):
+    plus=[[0 for _ in range(C+2)] for _ in range(R+2)]
+    for i in range(1,len(data)-1):
+        for j in range(1,len(data[i])-1):
+            if data[i][j]!=-1:
+                if data[i-1][j]!=-1:
+                    plus[i][j]+=(data[i-1][j]//k)
+                    plus[i-1][j]-=(data[i-1][j]//k)
+                if data[i+1][j]!=-1:
+                    plus[i][j]+=(data[i+1][j]//k)
+                    plus[i+1][j]-=(data[i+1][j]//k)
+                if data[i][j-1]!=-1:
+                    plus[i][j]+=(data[i][j-1]//k)
+                    plus[i][j-1]-=(data[i][j-1]//k)
+                if data[i][j+1]!=-1:
+                    plus[i][j]+=(data[i][j+1]//k)
+                    plus[i][j+1]-=(data[i][j+1]//k)
+    for i in range(1,len(data)-1):
+        for j in range(1,len(data[i])-1):
+                data[i][j]+=plus[i][j]
+    return data
+
+
+R,C,k,m=map(int,stdin.readline().strip().split())
+data=[[-1 for _ in range(C+2)]]
+for z in range(R):
+    stop=list(map(int,stdin.readline().strip().split()))
+    stop.insert(0,-1)
+    stop.append(-1)
+    data.append(stop)
+list1=[-1 for _ in range(C+2)]
+data.append(list1)
+
+for _ in range(m): data=move(data)
+
+last_min=float('inf')
+last_max=float('-inf')
+
+for i in range(1,len(data)-1):
+    for j in range(1,len(data[i])-1):
+        if data[i][j]!=-1:
+            last_min=min(last_min,data[i][j])
+            last_max=max(last_max,data[i][j])
+            
+print(last_min)
+print(last_max)
+
+```
+---
 # 其他
 ## stdin輸入法
 我這裡要教stdin輸入法，請大家先把`from sys import stdin`背起來，很重要，請第一行程式就打這個
