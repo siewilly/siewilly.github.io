@@ -3,7 +3,7 @@ title: The journey of building a website for the first time
 date: 2025-08-03 16:32:32
 tags: test
 cover: /img/hexo_web_ex/hexo_web.webp
-urname: test
+urname: hexo_en
 lang: en
 ---
 
