@@ -5,13 +5,13 @@
 # 網站
 title: siewilly's Blog
 subtitle: 'Coding, Learning, Life'
-description: 'Professional Bug Creator'
+description: 'Code player'
 keywords: 'Hexo, Blog, Coding, Learning, Life'
 author: siewilly
 language: zh-TW
 timezone: 'Asia/Taipei'
 
-url: https://itousouta15.github.io
+url: https://siewilly.github.io
 permalink: :year/:month/:day/:urlname/
 permalink_defaults:
 pretty_urls:
