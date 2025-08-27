@@ -1,3 +1,24 @@
+---
+title: 朋友
+comments: true
+---
+
+## 本站資訊
+- 站名： siewilly's blog
+- 站長： siewilly
+- 網址： https://siewilly.github.io
+
+## 申請方法
+- 增加本站後，在本頁留言，格式如下
+
+~~~yml
+- name: #名字
+  url: #網址
+  desc: #描述
+  image: #圖片
+~~~
+
+## 夥伴們
 <div class="friend-wrap">
   <div class="friend-item-wrap">
     <a href="https://d-sketon.github.io/" rel="external nofollow noopener noreferrer" target="_blank"></a>
@@ -105,6 +126,18 @@
     <div class="friend-info-wrap">
       <div class="friend-name">su2u4</div>
       <div class="friend-desc">廢物一個</div>
+    </div>
+  </div>
+  <div class="friend-item-wrap">
+    <a href="https://lbc0841.github.io/icrack41-blog/" rel="external nofollow noopener noreferrer" target="_blank"></a>
+    <div class="friend-icon-wrap">
+      <div class="friend-icon">
+        <img data-src="" data-sizes="auto" alt="Icrack" class="lazyautosizes lazyloaded" sizes="70px" src="/img/D.webp">
+      </div>
+    </div>
+    <div class="friend-info-wrap">
+      <div class="friend-name">Icrack</div>
+      <div class="friend-desc">別再TLE了，我裂開</div>
     </div>
   </div>
 </div>
