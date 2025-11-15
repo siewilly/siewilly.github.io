@@ -32,6 +32,18 @@ comments: true
       <div class="friend-desc">一個車萬人</div>
     </div>
   </div>
+    <div class="friend-item-wrap">
+    <a href="https://www.instagram.com/fallingcat.tw?igsh=dG5xcXR4aDhwNTY=" rel="external nofollow noopener noreferrer" target="_blank"></a>
+    <div class="friend-icon-wrap">
+      <div class="friend-icon">
+        <img data-src="/img/itousouta15.webp" data-sizes="auto" alt="fallingcat" class="lazyautosizes lazyloaded" sizes="70px" src="/img/fallingcat.webp">
+      </div>
+    </div>
+    <div class="friend-info-wrap">
+      <div class="friend-name">fallingcat</div>
+      <div class="friend-desc">fallingcat, but could also fall for you </div>
+    </div>
+  </div>
   <div class="friend-item-wrap">
     <a href="https://itousouta15.github.io/" rel="external nofollow noopener noreferrer" target="_blank"></a>
     <div class="friend-icon-wrap">
