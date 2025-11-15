@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HBD to fallingcat</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 新增 Intro Page（放在 P1 前面） -->
+    <div id="intro" class="page intro-bg" role="region" aria-label="intro">
+      <div class="intro-inner">
+        <!-- 利用 SVG 實作「畫出來」的文字動畫，並保留 id -->
+        <svg
+          id="drawSVG"
+          class="draw-svg"
+          viewBox="0 0 900 120"
+          preserveAspectRatio="xMidYMid meet"
+          aria-hidden="true"
+        >
+          <defs>
+            <style>
+              text {
+                font-family: "Noto Serif TC", serif;
+                font-weight: 800;
+                font-size: 64px;
+              }
+            </style>
+          </defs>
+          <text
+            id="drawText"
+            x="50%"
+            y="72"
+            text-anchor="middle"
+            fill="none"
+            stroke="url(#grad1)"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            Gift for Novia
+          </text>
+          <defs>
+            <linearGradient id="grad1" x1="0%" x2="100%">
+              <stop offset="0%" stop-color="#ff6bcb" />
+              <stop offset="100%" stop-color="#7a5cff" />
+            </linearGradient>
+          </defs>
+        </svg>
+
+        <button id="acceptBtn" class="btn-accept" aria-label="接收">
+          接收
+        </button>
+      </div>
+    </div>
+
+    <!-- 原本的 P1（位置不動） -->
+    <div id="page1" class="page bg-animated" role="region" aria-label="page1">
+      <h1 class="title">Happy Birthday</h1>
+      <div id="balloons" class="balloons-container" aria-hidden="true"></div>
+      <button id="next1" class="btn-next">Next</button>
+    </div>
+
+    <div id="page2" class="page bg-poetic" role="region" aria-label="page2">
+      <div class="poem-card">
+        <h2 class="poem-title">墨情夢韻</h2>
+        <div class="poem-text">
+          墨香蘊筆卷，書畫藏柔情。 夢影隨潮湧，心湖書韻生。
+        </div>
+      </div>
+      <div
+        style="
+          position: absolute;
+          right: 1.5rem;
+          bottom: 1.5rem;
+          text-align: center;
+        "
+      >
+        <div class="label-yes">看完了嗎?</div>
+        <button id="next2" class="btn-yes">是</button>
+      </div>
+    </div>
+
+    <div id="page3" class="page bg-romantic" role="region" aria-label="page3">
+      <div class="message-card" id="msg"></div>
+    </div>
+    <div class="page3-decor">
+      <div class="floating-heart-fullscreen" id="heart-container">
+        <div id="heart"></div>
+      </div>
+    </div>
+
+    <audio id="bgm" loop>
+      <source
+        src="https://cdn.pixabay.com/download/audio/2023/03/14/audio_3e2d3a3a77.mp3?filename=happy-birthday-piano-14403.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
