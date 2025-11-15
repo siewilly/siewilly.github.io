@@ -41,7 +41,7 @@ comments: true
     </div>
     <div class="friend-info-wrap">
       <div class="friend-name">fallingcat</div>
-      <div class="friend-desc">fallingcat, but could also fall for you </div>
+  <div class="friend-desc">fallingcat, but could also fall for you &lt;3 </div>
     </div>
   </div>
   <div class="friend-item-wrap">
